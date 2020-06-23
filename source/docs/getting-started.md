@@ -7,71 +7,60 @@ section: content
 
 # Getting Started {#getting-started}
 
-This is a starter template for creating a beautiful, customizable documentation site for your project with minimal effort. You’ll only have to change a few settings and you’re ready to go.
+This tool provides information on counties that might qualify to receive disaster supplemental funding based on Disaster Declarations from FEMA. The platform also provides information on the disaster profile of counties including reports on their disaster resilience levels, business vulnerability index, and storm history. 
 
-## Configuration {#getting-started-configuration}
 
-As with all Jigsaw sites, configuration settings can be found in `config.php`; you can update the variables in that file with settings specific to your project. You can also add new configuration variables there to use across your site; take a look at the [Jigsaw documentation](http://jigsaw.tighten.co/docs/site-variables/) to learn more.
+- [Using Map Controls](#using-map-controls)
+    - [Configuration](#configuration)
+    - [Driver Prerequisites](#driver-prerequisites)
+- [FEMA Disaster Declarations](#fema-disaster-declarations)
+    - [Using An Example Application](#using-example-application)
+- [County Profile](#county-profile)
+- [Disaster Resilience](#disaster-resilience)
+- [EDA Supplemental Awards](#eda-supplemental-awards)
 
-```php
-// config.php
-return [
-    'baseUrl' => 'https://my-awesome-jigsaw-site.com/',
-    'production' => false,
-    'siteName' => 'My Site',
-    'siteDescription' => 'Give your documentation a boost with Jigsaw.',
-    'docsearchApiKey' => '',
-    'docsearchIndexName' => '',
-    'navigation' => require_once('navigation.php'),
-];
-```
 
-> Tip: This configuration file is also where you’ll define any "collections" (for example, a collection of the contributors to your site, or a collection of blog posts). Check out the official [Jigsaw documentation](https://jigsaw.tighten.co/docs/collections/) to learn more.
+## Using Map Controls {#using-map-controls}
 
----
+1. Information tabs: Use the information tab controls to navigate to the various section of the homepage.
 
-### Adding Content {#getting-started-adding-content}
+![APRED Map Controls](/assets/images/docs/getting-started/map-controls.png)
 
-You can write your content using a [variety of file types](http://jigsaw.tighten.co/docs/content-other-file-types/). By default, this starter template expects your content to be located in the `source/docs` folder. If you change this, be sure to update the URL references in [navigation.php](/docs/navigation.php).
+## FEMA Disaster Declarations Section {#fema-disaster-declarations}
 
-[Read more about navigation.](/docs/navigation)
+2. Disaster type: To visually explore the geographic spread of different types of disaster, use the date range feature to select dates and use the checkmark box to select disaster types.
 
-The first section of each content page contains a YAML header that specifies how it should be rendered. The `title` attribute is used to dynamically generate HTML `title` and OpenGraph tags for each page. The `extends` attribute defines which parent Blade layout this content file will render with (e.g. `_layouts.documentation` will render with `source/_layouts/documentation.blade.php`), and the `section` attribute defines the Blade "section" that expects this content to be placed into it.
+![APRED Disaster Type Filter](/assets/images/docs/getting-started/disaster-filter.png)
 
-```yaml
----
-title: Navigation
-description: Building a navigation menu for your site
-extends: _layouts.documentation
-section: content
----
-```
+3. Choose County: To evaluate the eligibility of a county to receive disaster funding or to view the disaster profile of a county, type in the name of the county in the search button and hit enter. The selected page opens on a new page with all the relevant information.
 
-[Read more about Jigsaw layouts.](https://jigsaw.tighten.co/docs/content-blade/)
+![APRED County Selecter](/assets/images/docs/getting-started/county.png)
 
----
+## County Profile Section {#county-profile}
 
-### Adding Assets {#getting-started-adding-assets}
+1. County Dashboard: The county dashboard provides a summary of the demographic and economic information of a county.
 
-Any assets that need to be compiled (such as JavaScript, Less, or Sass files) can be added to the `source/_assets/` directory, and Laravel Mix will process them when running `npm run local` or `npm run production`. The processed assets will be stored in `/source/assets/build/` (note there is no underscore on this second `assets` directory).
+![APRED County Profile](/assets/images/docs/getting-started/county-profile.png)
 
-Then, when Jigsaw builds your site, the entire `/source/assets/` directory containing your built files (and any other directories containing static assets, such as images or fonts, that you choose to store there) will be copied to the destination build folders (`build_local`, on your local machine).
+2. The Declaration Section: This section provides information on disasters that may be eligible for investment assistance from the EDA.
 
-Files that don't require processing (such as images and fonts) can be added directly to `/source/assets/`.
+![EDA Declaration Section](/assets/images/docs/getting-started/declaration.png)
 
-[Read more about compiling assets in Jigsaw using Laravel Mix.](http://jigsaw.tighten.co/docs/compiling-assets/)
+3. Business Vulnerability Index (BVI) – The Business Vulnerability Index provides information on the percentages of businesses in a county that are believed to be vulnerable to various natural disasters.
 
----
+4. Disaster Resilience: The disaster resilience index measures the capacity of a city to recover from disaster events without loosing their socioeconomic and infrastructural viability.
 
-## Building Your Site {#getting-started-building-your-site}
+5. Storm History: The storm history graph provides information on the counts of storm events in a county published by NOAA since 1950s.
 
-Now that you’ve edited your configuration variables and know how to customize your styles and content, let’s build the site.
+## Disaster Resilience Section {#disaster-resilience}
 
-```bash
-# build static files with Jigsaw
-./vendor/bin/jigsaw build
+4. Disaster Resilience Indicators: Use the legend box to select the from the different indicators of disaster resilience.
 
-# compile assets with Laravel Mix
-# options: dev, staging, production
-npm run dev
-```
+## EDA Supplemental Awards Section {#eda-supplemental-awards}
+
+1. **EDA Supplemental Awards**: Use the color to decode the county specific EDA awards from the statewide awards.
+
+### Navigation
+
+6. To navigate between the sections in the county profile page, use the scroll up button or select from the menu in the right sidebar. 
+

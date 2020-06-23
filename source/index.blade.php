@@ -17,7 +17,7 @@
                     Learn how to use this tool
                 </a>
 
-                <a href="https://jigsaw.tighten.co" title="Jigsaw by Tighten" class="w-full md:flex-1 bg-gray-400 hover:bg-gray-600 text-blue-900 font-normal hover:text-white rounded shadow-lg py-2 px-6">
+                <a href="" title="Jigsaw by Tighten" class="w-full md:flex-1 bg-gray-400 hover:bg-gray-600 text-blue-900 font-normal hover:text-white rounded shadow-lg py-2 px-6">
                     Visit the Declaration Evaluator
                 </a>
             </div>
