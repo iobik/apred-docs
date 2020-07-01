@@ -54,10 +54,6 @@
                     <p class="block text-gray-600">
                         Powered by EDA Data & Text-mining
                     </p>
-
-                    <a href="/docs/disaster-declaration" class="w-full md:flex-1 bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded shadow-lg mr-4 py-2 px-6">
-                        Learn More
-                    </a>
                 </footer>
             </div>
 
@@ -74,10 +70,6 @@
                     <p class="block text-gray-600">
                         Powered by BRICS - Baseline Resilience Indicators for Communities
                     </p>
-
-                    <a href="/docs/business-vulnerability-index" class="w-full md:flex-1 bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded shadow-lg mr-4 py-2 px-6">
-                        Learn More
-                    </a>
                 </footer>
             </div>
 
@@ -95,10 +87,6 @@
                     <p class="block text-gray-600">
                         Powered by NAICS Census code
                     </p>
-
-                    <a href="/docs/disaster-resilience" class="w-full md:flex-1 bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded shadow-lg mr-4 py-2 px-6">
-                        Learn More
-                    </a>
                 </footer>
             </div>
         </main>
