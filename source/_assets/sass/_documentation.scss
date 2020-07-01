@@ -8,7 +8,7 @@
     }
 
     & > ul > li > a {
-        @apply .font-semibold;
+        @apply .font-medium;
     }
 
     ul > li::before {
