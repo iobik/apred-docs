@@ -30,8 +30,16 @@
     </div>
 
     <section class="block mt-10">
+        <p class="text-2xl mt-12 max-w-xltext-2xl mt-12 max-w-xl">
+            The EDA provides investment assistance to communities and regions to device and implement long-term economic recovery strategies through a variety of construction and non-construction projects. This website provides information on the Major Disaster Declarations declared under the Robert T. Stafford Disaster Relief and Emergency Assistance Act that may support eligibility for investment assistance from EDA (the U.S. Economic Development Administration).
+        </p>   
+        
+        <p class="text-2xl mt-12 max-w-xltext-2xl mt-12 max-w-xl">
+            The website also allows economic development practitioners to explore the number of businesses in their county that could be more vulnerable to hazards and disasters because of the nature of the business, i.e., low infrastructure mobility, high reliance on public utilities like water and electricity, etc. The end-users can also review the disaster resilience index and storm history of the given county. 
+        </p>
+        
         <header class="mb-6 text-3xl font-thin">
-            Ways to measure eligibility: 
+            How we measure eligibility: 
         </header>
 
         <main class="flex flex-wrap">
