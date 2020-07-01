@@ -4,8 +4,8 @@
 <section class="container max-w-6xl mx-auto px-6 py-10 md:py-12">
     <div class="flex flex-col-reverse mb-10 lg:flex-row lg:mb-24">
         <div class="mt-8">
-            <h1 id="intro-docs-template" class="text-xl font-semibold">
-                Welcome to the <span class="font-black">{{ $page->siteName }}</span>
+            <h1 id="intro-docs-template" class="text-lg font-thin">
+                Welcome to the <span class="font-semibold">{{ $page->siteName }}</span>
             </h1>
 
             <p id="intro-powered-by-jigsaw" class="text-2xl mt-12 max-w-xl hidden">
