@@ -1,7 +1,11 @@
 <?php
 
 return [
-    'Getting Started' => 'docs/getting-started',
+    'Getting Started' => [
+        'children' => [
+            'Tutorial' => 'docs/getting-started',
+        ]
+    ],
     
     'Main Sections' => [
         'children' => [

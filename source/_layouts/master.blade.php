@@ -72,6 +72,11 @@
 
         <footer class="bg-gray-200 text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-wrap justify-center">
+                <li>
+                    <p class="max-w-xl text-gray-600">
+                        This publication was prepared by the CTIL and IBRC at Indiana University using Federal funds awarded to the Trustees of Indiana University and as a sub-component under award number ED17HDQ3120040 from the U.S. Economic Development Administration, U.S. Department of Commerce. The statements, findings, conclusions, and recommendations are those of the author(s) and do not necessarily reflect the views of the Economic Development Administration or the U.S. Department of Commerce. 
+                    </p>
+                </li>
                 <li class="w-full mb-4">
                     <a href="https://www.iu.edu/copyright/index.html">
                         Copyright
@@ -85,6 +90,7 @@
                         Crisis Technologies Innovation Lab
                     </a> 
                 </li>
+
             </ul>
         </footer>
     </body>

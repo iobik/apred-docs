@@ -7,8 +7,7 @@ section: content
 
 
 - [Introduction](#introduction)
-- [Action 1](#action-1)
-- [Action 2](#action-2)
+- [Who does this Information Help?](#help)
 - [Computation/Data Source](#data-source)
 
 ## Introduction {#introduction}
@@ -19,11 +18,9 @@ the platform uses text mining techniques to categorize EDA expenditures accordin
 Implementing this platform is essential because it will allow the EDA officers and economic developers to quickly access 
 information on counties that qualify for disaster supplemental funding.
 
-## Action 1 {#action-1}
-Some type of action here that helps people.
-
-## Action 2 {#action-2}
-Another type of action related to disaster declaration here.
+## Who does this Information Help? {#help}
+-An EDA officer seeking to determine if an applicant qualifies for disaster declaration at the county level.
+-A local economic developer investigating their eligibility for disaster funding at state, and county level. The website also displays funding that a community may qualify for, from previous years' funding allocations.
 
 ## Computation/Data Source {#data-source}
 The disaster declaration section was implemented based on available public data from EDA relating to the FY2012 supplemental funding. Our researchers applied text mining techniques to allow categorization of EDA expenditures in counties according to expenditure type as well as mapping to specific events back to 2011. The data available from EDA regarding disbursements includes project identifiers, applicants, amount of funds paid by EDA, amount paid by local applicants, the EDA program from which the funds were taken, location information including state and county, estimates of jobs created and jobs saved, estimated private investment, and detailed project description including keywords.
