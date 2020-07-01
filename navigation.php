@@ -2,11 +2,12 @@
 
 return [
     'Getting Started' => 'docs/getting-started',
-    'Support' => [
-        'url' => 'docs/support',
+    
+    'Main Sections' => [
         'children' => [
-            'Application' => 'docs/support',
-            'Developer' => 'docs/support'
+            'Disaster Declaration' => 'docs/disaster-declaration',
+            'Disaster Resilience' => 'docs/disaster-resilience',
+            'Business Vulnerability Index' => 'docs/business-vulnerability-index',
         ]
     ],
     'FAQs' => 'docs/faq',

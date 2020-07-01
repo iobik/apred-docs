@@ -1,1 +1,17 @@
 // Add your custom styles here
+
+#docs-content {    
+    & > ul a {
+        @apply .text-gray-600;
+        @apply .text-lg;
+        @apply .font-thin;
+    }
+
+    & > ul > li > a {
+        @apply .font-semibold;
+    }
+
+    ul > li::before {
+        content: '- ';
+    }
+}

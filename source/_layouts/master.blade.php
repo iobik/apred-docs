@@ -71,9 +71,19 @@
         @stack('scripts')
 
         <footer class="bg-gray-200 text-center text-sm mt-12 py-4" role="contentinfo">
-            <ul class="flex flex-col md:flex-row justify-center">
-                <li class="md:mr-2">
-                    &copy; <a class="underline text-gray-800" href="https://ctil.iu.edu" title="CTIL website">Crisis Technologies Innovation Lab</a> {{ date('Y') }}.
+            <ul class="flex flex-wrap justify-center">
+                <li class="w-full mb-4">
+                    <a href="https://www.iu.edu/copyright/index.html">
+                        Copyright
+                    </a> &copy; {{ date('Y') }} The Trustees of 
+                    <a href="https://www.iu.edu/">
+                        Indiana University
+                    </a>
+                </li>
+                <li class="md:mr-2 w-full">
+                    <a class="underline text-gray-800" href="https://ctil.iu.edu" title="CTIL website">
+                        Crisis Technologies Innovation Lab
+                    </a> 
                 </li>
             </ul>
         </footer>

@@ -5,19 +5,14 @@ extends: _layouts.documentation
 section: content
 ---
 
-# Getting Started {#getting-started}
-
-This tool provides information on counties that might qualify to receive disaster supplemental funding based on Disaster Declarations from FEMA. The platform also provides information on the disaster profile of counties including reports on their disaster resilience levels, business vulnerability index, and storm history. 
-
-
 - [Using Map Controls](#using-map-controls)
-    - [Configuration](#configuration)
-    - [Driver Prerequisites](#driver-prerequisites)
 - [FEMA Disaster Declarations](#fema-disaster-declarations)
-    - [Using An Example Application](#using-example-application)
 - [County Profile](#county-profile)
 - [Disaster Resilience](#disaster-resilience)
 - [EDA Supplemental Awards](#eda-supplemental-awards)
+
+
+This tool provides information on counties that might qualify to receive disaster supplemental funding based on Disaster Declarations from FEMA. The platform also provides information on the disaster profile of counties including reports on their disaster resilience levels, business vulnerability index, and storm history. 
 
 
 ## Using Map Controls {#using-map-controls}
