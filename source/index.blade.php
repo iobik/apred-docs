@@ -36,10 +36,6 @@
         </div>
     </div>
 
-    <section class="block my-10">
-        
-    </section>
-
     <section class="block mt-10 hidden">
         <header class="mb-6 text-3xl font-thin">
             How we measure eligibility: 
@@ -99,8 +95,6 @@
             </div>
         </main>
     </section>
-
-    <hr class="block my-8 border lg:hidden">
 
     
 </section>
