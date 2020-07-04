@@ -1,33 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
-  <loc>https://my-jigsaw-docs.com</loc>
-  <lastmod>2020-06-23T16:15:13+00:00</lastmod>
+  <loc>https://ctil.iu.edu/projects/apred-landing</loc>
+  <lastmod>2020-07-04T21:01:19+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://my-jigsaw-docs.com/docs/custom-404-page</loc>
-  <lastmod>2020-06-23T16:15:13+00:00</lastmod>
+  <loc>https://ctil.iu.edu/projects/apred-landing/docs/custom-404-page</loc>
+  <lastmod>2020-07-04T21:01:19+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://my-jigsaw-docs.com/docs/navigation</loc>
-  <lastmod>2020-06-23T16:15:13+00:00</lastmod>
+  <loc>https://ctil.iu.edu/projects/apred-landing/docs/source</loc>
+  <lastmod>2020-07-04T21:01:19+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://my-jigsaw-docs.com/docs/getting-started</loc>
-  <lastmod>2020-06-23T16:15:13+00:00</lastmod>
+  <loc>https://ctil.iu.edu/projects/apred-landing/docs/faq</loc>
+  <lastmod>2020-07-04T21:01:19+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://my-jigsaw-docs.com/docs/customizing-your-site</loc>
-  <lastmod>2020-06-23T16:15:13+00:00</lastmod>
+  <loc>https://ctil.iu.edu/projects/apred-landing/docs/navigation</loc>
+  <lastmod>2020-07-04T21:01:19+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
-  <loc>https://my-jigsaw-docs.com/docs/algolia-docsearch</loc>
-  <lastmod>2020-06-23T16:15:13+00:00</lastmod>
+  <loc>https://ctil.iu.edu/projects/apred-landing/docs/business-vulnerability-index</loc>
+  <lastmod>2020-07-04T21:01:19+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://ctil.iu.edu/projects/apred-landing/docs/getting-started</loc>
+  <lastmod>2020-07-04T21:01:19+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://ctil.iu.edu/projects/apred-landing/docs/support</loc>
+  <lastmod>2020-07-04T21:01:19+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://ctil.iu.edu/projects/apred-landing/docs/disaster-declaration</loc>
+  <lastmod>2020-07-04T21:01:19+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://ctil.iu.edu/projects/apred-landing/docs/customizing-your-site</loc>
+  <lastmod>2020-07-04T21:01:19+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://ctil.iu.edu/projects/apred-landing/docs/algolia-docsearch</loc>
+  <lastmod>2020-07-04T21:01:19+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://ctil.iu.edu/projects/apred-landing/docs/disaster-resilience</loc>
+  <lastmod>2020-07-04T21:01:19+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
 </urlset>
