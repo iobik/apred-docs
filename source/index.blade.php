@@ -25,7 +25,7 @@
             </p>
 
             <div class="flex flex-wrap space-y-4 md:space-y-0 mt-20 mb-10">
-                <a href="/docs/getting-started" title="{{ $page->siteName }} getting started" class="w-full text-center btn md:flex-1">
+                <a href="{{ $page->baseUrl }}/docs/getting-started" title="{{ $page->siteName }} getting started" class="w-full text-center btn md:flex-1">
                     Learn how to use APRED
                 </a>
 
