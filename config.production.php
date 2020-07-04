@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => 'https://my-jigsaw-docs.com',
+    'baseUrl' => 'https://ctil.iu.edu/apred-landing',
     'production' => true,
 
     // DocSearch credentials
