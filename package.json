@@ -8,7 +8,7 @@
         "watch": "npm run local -- --watch"
     },
     "devDependencies": {
-        "cross-env": "^3.2.3",
+        "cross-env": "^3.2.4",
         "docsearch.js": "^2.6.2",
         "highlight.js": "^9.13.1",
         "laravel-mix": "^4.0.0||^5.0.0",
