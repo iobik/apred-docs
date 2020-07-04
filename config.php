@@ -5,7 +5,7 @@ use Illuminate\Support\Str;
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'EDA Disaster Declaration Evaluator',
+    'siteName' => 'APRED (Analysis Platform for Risk and Expenditure in Disaster)',
     'siteDescription' => 'This website is used to assess the likelihood that a potential applicant might be 
     eligible for disaster declaration funding.',
 

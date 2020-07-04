@@ -107,11 +107,16 @@ li {
 ol,
 ul {
     @apply .my-4;
+    @apply .pl-2;
 }
 
 ol {
     @apply .list-decimal;
-    @apply .pl-4;
+    @apply .pl-8;
+}
+
+ol > li {
+    @apply .mb-4;
 }
 
 p {
@@ -142,4 +147,28 @@ pre {
 ::selection {
     @apply .bg-blue-500;
     @apply .text-white;
+}
+
+.btn {
+    @apply .bg-gray-400;
+    @apply .text-blue-900;
+    @apply .font-normal;
+    @apply .rounded;
+    @apply .shadow-lg;
+    @apply .py-2;
+    @apply .px-6;
+}
+
+.btn:hover {
+    @apply .bg-gray-600;
+    @apply .text-white;
+}
+
+.btn.primary {
+    @apply .bg-red-700;
+    @apply .text-white;
+}
+
+.btn.primary:hover {
+    @apply .bg-red-600;
 }

@@ -5,27 +5,31 @@
     <div class="flex flex-col-reverse mb-10 lg:flex-row lg:mb-24">
         <div class="mt-8">
             <h1 id="intro-docs-template" class="text-xl text-gray-600 font-thin">
-                Welcome to the <span class="font-semibold">{{ $page->siteName }}</span>
+                Welcome to <span class="font-semibold">{{ $page->siteName }}</span>
             </h1>
 
-            <p id="intro-powered-by-jigsaw" class="text-2xl mt-12 max-w-xl hidden">
-                {{ $page->siteDescription }}
-            </p>
-
             <p class="mt-12 max-w-xl">
-                The EDA provides investment assistance to communities and regions to device and implement long-term economic recovery strategies through a variety of construction and non-construction projects. This website provides information on the Major Disaster Declarations declared under the Robert T. Stafford Disaster Relief and Emergency Assistance Act that may support eligibility for investment assistance from EDA (the U.S. Economic Development Administration).
+                APRED provides information on the Major Disaster Declarations declared under the Robert T. Stafford Disaster 
+                Relief and Emergency Assistance Act that may support eligibility for investment assistance from 
+                EDA (the U.S. Economic Development Administration).The EDA provides investment assistance to communities 
+                and regions to device and implement long-term economic recovery strategies through a variety of 
+                construction and non-construction projects.
             </p>   
             
             <p class="mt-4 max-w-xl">
-                The website also allows economic development practitioners to explore the number of businesses in their county that could be more vulnerable to hazards and disasters because of the nature of the business, i.e., low infrastructure mobility, high reliance on public utilities like water and electricity, etc. The end-users can also review the disaster resilience index and storm history of the given county. 
+                APRED also allows economic development practitioners to explore the disaster resilience 
+                scores of their county, likewise, the number of businesses within their county that 
+                could be more vulnerable to hazards and disasters because of the nature of the business, 
+                i.e., low infrastructure mobility, high reliance on public utilities like water and electricity, etc. 
+                Further, the end-users can also use APRED to review the storm history of the given county.
             </p>
 
             <div class="flex flex-wrap space-y-4 md:space-y-0 mt-20 mb-10">
-                <a href="/docs/getting-started" title="{{ $page->siteName }} getting started" class="w-full text-center md:flex-1 bg-blue-500 hover:bg-blue-600 font-normal text-white hover:text-white rounded shadow-lg mr-4 py-2 px-6">
-                    Learn how to use this tool
+                <a href="/docs/getting-started" title="{{ $page->siteName }} getting started" class="w-full text-center btn md:flex-1">
+                    Learn how to use APRED
                 </a>
 
-                <a href="" title="Jigsaw by Tighten" class="w-full text-center md:flex-1 bg-gray-400 hover:bg-gray-600 text-blue-900 font-normal hover:text-white rounded shadow-lg py-2 px-6">
+                <a href="https://ctil.iu.edu/projects/apred/#/" class="w-full text-center md:flex-1 btn primary">
                     Start Using APRED
                 </a>
             </div>
