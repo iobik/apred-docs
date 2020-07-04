@@ -20,5 +20,4 @@ mix.js('source/_assets/js/main.js', 'js')
         content: ['source/**/*.html', 'source/**/*.md', 'source/**/*.js', 'source/**/*.php', 'source/**/*.vue'],
         whitelistPatterns: [/language/, /hljs/, /algolia/],
     })
-    .sourceMaps()
-    .version();
+    .sourceMaps();
