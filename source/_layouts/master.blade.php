@@ -31,7 +31,7 @@
             <!-- Insert analytics code here -->
         @endif
 
-        <link rel="stylesheet" href="/assets/build/css/main.css">
+        <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/build/css/main.css">
 
         @if ($page->docsearchApiKey && $page->docsearchIndexName)
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
@@ -75,7 +75,7 @@
             @yield('body')
         </main>
 
-        <script src="/assets/build/js/main.js"></script>
+        <script src="{{ $page->baseUrl }}/assets/build/js/main.js"></script>
 
         @stack('scripts')
 
