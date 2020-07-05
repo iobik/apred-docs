@@ -922,10 +922,10 @@ pre code {
 }
 
 .btn {
-  background-color: #EDEBEB;
+  background-color: #512A44;
   --text-opacity: 1;
-  color: #4a5568;
-  color: rgba(74, 85, 104, var(--text-opacity));
+  color: #f7fafc;
+  color: rgba(247, 250, 252, var(--text-opacity));
   font-weight: 400;
   border-radius: 0.25rem;
   box-shadow: 0 -1px 27px 0 rgba(0, 0, 0, 0.04), 0 4px 15px 0 rgba(0, 0, 0, 0.08);
@@ -936,12 +936,10 @@ pre code {
 }
 
 .btn:hover {
-  --bg-opacity: 1;
-  background-color: #718096;
-  background-color: rgba(113, 128, 150, var(--bg-opacity));
+  background-color: #66435A;
   --text-opacity: 1;
-  color: #fff;
-  color: rgba(255, 255, 255, var(--text-opacity));
+  color: #f7fafc;
+  color: rgba(247, 250, 252, var(--text-opacity));
 }
 
 .crimson {
@@ -1021,6 +1019,12 @@ pre code {
 
 #docs-content ul > li::before {
   content: "- ";
+}
+
+#docs-content img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2.5rem;
 }
 
 .docsearch-input {

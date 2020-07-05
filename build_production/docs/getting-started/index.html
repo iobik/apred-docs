@@ -30,27 +30,26 @@
             </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
-     
-        <header class="flex items-center shadow bg-white border-b h-24 mb-8 py-4" role="banner">
+        <header class="flex items-center shadow bg-white border-b h-10 mb-8 py-8" role="banner">
             <div class="container flex justify-between items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center justify-start">
                     <a href="https://ctil.iu.edu/projects/apred-landing/" title="APRED (Analysis Platform for Risk and Expenditure in Disaster) home" class="inline-flex items-center">
                         <img class="h-8 md:h-10 mr-3 hidden" src="/assets/img/logo.svg" alt="APRED (Analysis Platform for Risk and Expenditure in Disaster) logo" />
 
-                        <h1 class="text-lg md:text-xl text-blue-900 font-thin hover:text-blue-600 my-0 pr-4">
+                        <h1 class="text-xl text-blue-900 font-bold hover:text-blue-600 my-0 pr-4">
                             <span class="text-red-700">
                                 APRED
                             </span>
-                            Analysis Platform for Risk, Resilience and Expenditure in Disasters
                         </h1>
                     </a>
                 </div>
-                <div class="justify-end hidden lg:flex lg:flex-1">
-                    <a href="https://ctil.iu.edu/projects/apred/#/" class="btn primary">
-                        Start Using APRED
-                    </a>
-                </div>
-                <div class="hidden flex flex-1 justify-end items-center text-right md:pl-10">
+                 
+                    <div class="justify-end hidden lg:flex lg:flex-1">
+                        <a href="https://ctil.iu.edu/projects/apred/#/" class="btn primary">
+                            Start Using APRED
+                        </a>
+                    </div>
+                                <div class="hidden flex flex-1 justify-end items-center text-right md:pl-10">
                                     </div>
             </div>
 
@@ -71,7 +70,7 @@
 </button>
 
         </header>
-    
+
         <main role="main" class="w-full flex-auto">
             
 <section class="container max-w-8xl mx-auto px-6 md:px-8 py-4">
@@ -200,10 +199,22 @@
 <p><img src="/assets/images/docs/getting-started/declaration.png" alt="EDA Declaration Section" /></p>
 
 <ol start="3">
-<li><p>Business Vulnerability Index (BVI) – The Business Vulnerability Index provides information on the percentages of businesses in a county that are believed to be vulnerable to various natural disasters.</p></li>
-<li><p>Disaster Resilience: The disaster resilience index measures the capacity of a city to recover from disaster events without loosing their socioeconomic and infrastructural viability.</p></li>
-<li><p>Storm History: The storm history graph provides information on the counts of storm events in a county published by NOAA since 1950s.</p></li>
+<li>Business Vulnerability Index (BVI) – The Business Vulnerability Index provides information on the percentages of businesses in a county that are believed to be vulnerable to various natural disasters.</li>
 </ol>
+
+<p><img src="/assets/images/docs/getting-started/business-vulnerability-index.png" alt="Business Vulnerability Index" /></p>
+
+<ol start="4">
+<li>Disaster Resilience: The disaster resilience index measures the capacity of a city to recover from disaster events without loosing their socioeconomic and infrastructural viability.</li>
+</ol>
+
+<p><img src="/assets/images/docs/getting-started/disaster-resilience.png" alt="Disaster Resilience" /></p>
+
+<ol start="5">
+<li>Storm History: The storm history graph provides information on the counts of storm events in a county published by NOAA since 1950s.</li>
+</ol>
+
+<p><img src="/assets/images/docs/getting-started/storm-history.png" alt="Storm History" /></p>
 
 <h2 id="disaster-resilience">Disaster Resilience Section</h2>
 
@@ -211,11 +222,15 @@
 <li>Disaster Resilience Indicators: Use the legend box to select the from the different indicators of disaster resilience.</li>
 </ol>
 
+<p><img src="/assets/images/docs/getting-started/disaster-resilience-filter.png" alt="Disaster Resilience Filter" /></p>
+
 <h2 id="eda-supplemental-awards">EDA Supplemental Awards Section</h2>
 
 <ol>
 <li><strong>EDA Supplemental Awards</strong>: Use the color to decode the county specific EDA awards from the statewide awards.</li>
 </ol>
+
+<p><img src="/assets/images/docs/getting-started/eda-awards-filter.png" alt="EDA Awards Filter" /></p>
 
 <h3>Navigation</h3>
 
@@ -251,13 +266,13 @@
 </script>
 
         <footer id="site-footer" class="mt-12 py-48" role="contentinfo">
-            <ul class="container max-w-4xl mx-auto px-6">
+            <ul class="container max-w-8xl mx-auto px-6">
                 <li class="block mb-12">
-                    <p>
+                    <p class="max-w-4xl">
                         This platform brings data science to decision-makers dealing with the economics of disaster mitigation, analysis, and recovery activities. 
                     </p>
 
-                    <p>
+                    <p class="max-w-4xl">
                         This publication was prepared by the CTIL and IBRC at Indiana University using Federal funds 
                         awarded to the Trustees of Indiana University and as a sub-component under award number 
                         ED17HDQ3120040 from the U.S. Economic Development Administration, U.S. Department of Commerce. 
@@ -283,7 +298,7 @@
                     </a>
                 </li> 
 
-                <li class="block mt-4">
+                <li class="block mt-4 lg:mt-2">
                     <a href="https://www.iu.edu/copyright/index.html">
                         Copyright
                     </a> &copy; 2020 The Trustees of 

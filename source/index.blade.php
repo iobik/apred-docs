@@ -1,11 +1,13 @@
 @extends('_layouts.master')
 
 @section('body')
-<section class="container max-w-6xl mx-auto px-6 py-10 md:py-12">
+<section class="container max-w-8xl mx-auto px-4 lg:px-8 py-10 md:py-12">
     <div class="flex flex-col-reverse mb-10 lg:flex-row lg:mb-24">
         <div class="mt-8">
             <h1 id="intro-docs-template" class="text-xl text-gray-600 font-thin">
-                Welcome to <span class="font-semibold">{{ $page->siteName }}</span>
+                Welcome to <span class="font-semibold">
+                    APRED (Analysis Platform for Risk, Resilience and Expenditure in Disasters)
+                </span>
             </h1>
 
             <p class="mt-12 max-w-xl">
@@ -25,7 +27,7 @@
             </p>
 
             <div class="flex flex-wrap space-y-4 md:space-y-0 mt-20 mb-10">
-                <a href="{{ $page->baseUrl }}/docs/getting-started" title="{{ $page->siteName }} getting started" class="w-full text-center btn md:flex-1">
+                <a href="{{ $page->baseUrl }}/docs/getting-started" title="{{ $page->siteName }} getting started" class="w-full text-center btn bg-gray-600 md:flex-1">
                     Learn how to use APRED
                 </a>
 

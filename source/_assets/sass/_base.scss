@@ -150,8 +150,8 @@ pre {
 }
 
 .btn {
-    background-color: #EDEBEB;
-    @apply .text-gray-700;
+    background-color: #512A44;
+    @apply .text-gray-100;
     @apply .font-normal;
     @apply .rounded;
     @apply .shadow-lg;
@@ -160,8 +160,8 @@ pre {
 }
 
 .btn:hover {
-    @apply .bg-gray-600;
-    @apply .text-white;
+    background-color: #66435A;
+    @apply .text-gray-100;
 }
 
 .crimson { 

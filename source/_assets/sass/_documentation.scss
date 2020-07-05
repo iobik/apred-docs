@@ -14,4 +14,9 @@
     ul > li::before {
         content: '- ';
     }
+
+    img {
+        @apply .mx-auto;
+        @apply .mb-10;
+    }
 }

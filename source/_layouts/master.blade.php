@@ -39,26 +39,34 @@
     </head>
 
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
-    @unless( $page->getPath() == '') 
-        <header class="flex items-center shadow bg-white border-b h-24 mb-8 py-4" role="banner">
+        <header class="flex items-center shadow bg-white border-b h-10 mb-8 py-8" role="banner">
             <div class="container flex justify-between items-center max-w-8xl mx-auto px-4 lg:px-8">
                 <div class="flex items-center justify-start">
                     <a href="{{ $page->baseUrl }}/" title="{{ $page->siteName }} home" class="inline-flex items-center">
                         <img class="h-8 md:h-10 mr-3 hidden" src="/assets/img/logo.svg" alt="{{ $page->siteName }} logo" />
 
-                        <h1 class="text-lg md:text-xl text-blue-900 font-thin hover:text-blue-600 my-0 pr-4">
+                        <h1 class="text-xl text-blue-900 font-bold hover:text-blue-600 my-0 pr-4">
                             <span class="text-red-700">
                                 APRED
                             </span>
-                            Analysis Platform for Risk, Resilience and Expenditure in Disasters
                         </h1>
                     </a>
                 </div>
-                <div class="justify-end hidden lg:flex lg:flex-1">
-                    <a href="https://ctil.iu.edu/projects/apred/#/" class="btn primary">
-                        Start Using APRED
-                    </a>
-                </div>
+                @unless( $page->getPath() == '') 
+                    <div class="justify-end hidden lg:flex lg:flex-1">
+                        <a href="https://ctil.iu.edu/projects/apred/#/" class="btn primary">
+                            Start Using APRED
+                        </a>
+                    </div>
+                @else 
+                    <div class="justify-end flex items-center">
+                        <span class="inline-block text-2xl pr-4">
+                            CTIL
+                        </span> 
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAACWCAIAAAB2EXwkAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAmBJREFUeNrs3T1OG0EAgFE7QqF1kcYcgBqJA3i3D2fAVWrfAI5ASyr7CAj3LA21EZ2rrZIGJCSqpCEToYjIkGCS2WF29b4SiWWGJ8/+aOXpH/f0xr3zL2AgBgzEgIEYMBADBmLAQAwYiAEDMWAgBgz0TBsZjun9YPBhZ6eJI18vFt9vbxm8XAD4eHbWxJHnZfmlqqxFYsBADBiIAQM9X78t711/ur9/7a987vd9DsSAgRgw0NpFeG66V1XD0SjusBq6pPmHi6u/9/X8/LQofA6sRWLAQAwYiIH7g19dTCabg8HvP9kej7f399c/wnI2W06nCWY7L8u44/wW402ZCAY3i8XKT4avvG25q+s0r5ys/JVMxmktcj4QAwZiwEAMGIgBAzFgIAYMxICBGDAQAwZiwEAMGIgBAzFgIAYMxICBGDAQAwZiwEAMGIgBA61fFvuAbBVF7/Aw+mF3Xzrm1n9/FV13DIajUfRvJfxpcHBgLRIDBmLAQG9rkOFefDnPqxGDq6Oj5WzWMYAwozCvNq1F1XjcJYYwlzCj9p0POsPQKEDj5+QOMDQNkOK6qNUMCQASXZteTCY3l5etA6hPThIAJDIIl3SnRdEuhjDaNADp7tHaxRDGGUab7C4n3X1yWxgSA6R+VpE/Q3qAnv0yc8gzOwZiwEAMGIgBAzFgoMc28hzWboxXgJ8eZDmd3tV1bpPN9HlR9A2/H5qXZZrN8KxFzgdiwEAMGIgBAzFoaZk+q1jZ+D5W10+2nWfwxzJ8omAtYiAGDMSAgRgwEAMGYsBADBiIAQMxYCAGDJS2HwIMAK+RvsulC4ZHAAAAAElFTkSuQmCC" 
+                        class="h-16 inline-block">
+                    </div>
+                @endunless
                 <div class="hidden flex flex-1 justify-end items-center text-right md:pl-10">
                     @if ($page->docsearchApiKey && $page->docsearchIndexName)
                         @include('_nav.search-input')
@@ -68,7 +76,6 @@
 
             @yield('nav-toggle')
         </header>
-    @endunless
 
         <main role="main" class="w-full flex-auto">
             @yield('body')
@@ -79,13 +86,13 @@
         @stack('scripts')
 
         <footer id="site-footer" class="mt-12 py-48" role="contentinfo">
-            <ul class="container max-w-4xl mx-auto px-6">
+            <ul class="container max-w-8xl mx-auto px-6">
                 <li class="block mb-12">
-                    <p>
+                    <p class="max-w-4xl">
                         This platform brings data science to decision-makers dealing with the economics of disaster mitigation, analysis, and recovery activities. 
                     </p>
 
-                    <p>
+                    <p class="max-w-4xl">
                         This publication was prepared by the CTIL and IBRC at Indiana University using Federal funds 
                         awarded to the Trustees of Indiana University and as a sub-component under award number 
                         ED17HDQ3120040 from the U.S. Economic Development Administration, U.S. Department of Commerce. 
@@ -111,7 +118,7 @@
                     </a>
                 </li> 
 
-                <li class="block mt-4">
+                <li class="block mt-4 lg:mt-2">
                     <a href="https://www.iu.edu/copyright/index.html">
                         Copyright
                     </a> &copy; {{ date('Y') }} The Trustees of 

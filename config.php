@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'http://apred.test',
     'production' => false,
     'siteName' => 'APRED (Analysis Platform for Risk and Expenditure in Disaster)',
     'siteDescription' => 'This website is used to assess the likelihood that a potential applicant might be 

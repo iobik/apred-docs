@@ -43,17 +43,27 @@ This tool provides information on counties that might qualify to receive disaste
 
 3. Business Vulnerability Index (BVI) – The Business Vulnerability Index provides information on the percentages of businesses in a county that are believed to be vulnerable to various natural disasters.
 
+![Business Vulnerability Index](/assets/images/docs/getting-started/business-vulnerability-index.png)
+
 4. Disaster Resilience: The disaster resilience index measures the capacity of a city to recover from disaster events without loosing their socioeconomic and infrastructural viability.
 
+![Disaster Resilience](/assets/images/docs/getting-started/disaster-resilience.png)
+
 5. Storm History: The storm history graph provides information on the counts of storm events in a county published by NOAA since 1950s.
+
+![Storm History](/assets/images/docs/getting-started/storm-history.png)
 
 ## Disaster Resilience Section {#disaster-resilience}
 
 4. Disaster Resilience Indicators: Use the legend box to select the from the different indicators of disaster resilience.
 
+![Disaster Resilience Filter](/assets/images/docs/getting-started/disaster-resilience-filter.png)
+
 ## EDA Supplemental Awards Section {#eda-supplemental-awards}
 
 1. **EDA Supplemental Awards**: Use the color to decode the county specific EDA awards from the statewide awards.
+
+![EDA Awards Filter](/assets/images/docs/getting-started/eda-awards-filter.png)
 
 ### Navigation
 
