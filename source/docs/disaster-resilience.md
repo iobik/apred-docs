@@ -31,9 +31,9 @@ The **BRIC** index comprises six categories for disaster resilience
 
 ### Environmental {#environmental}
 
-### Institutional] {#institutional}
+### Institutional {#institutional}
 
-### Infrastructural] {#infrastructural}
+### Infrastructural {#infrastructural}
 
 ### Community Capital {#community-capital}
 
