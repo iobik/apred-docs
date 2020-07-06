@@ -14,7 +14,7 @@ section: content
 The Disaster Resilience Index section provides information on the Baseline Resilience Indicators for Communities **BRICs** using the framework provided by Cutter et al. (2010). Cutter’s framework folds the resilient and vulnerable variables of a city into a unified set of indices - to produce aggregated information on disaster resilience. The BRICS index comprises six categories for disaster resilience including, economic, social, environmental, institutional, infrastructural, and community capital. 
 
 
-> The BRIC framework is provided by Cutter et al. (2010). Let's link to them here.
+> The BRIC framework is provided by [Cutter et al. (2010)](http://resiliencesystem.com/sites/default/files/Cutter_jhsem.2010.7.1.1732.pdf).
 
 ## BRIC {#bric}
 The **BRIC** index comprises six categories for disaster resilience:

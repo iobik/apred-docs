@@ -5,4 +5,5 @@ extends: _layouts.documentation
 section: content
 ---
 
-This will be built in tandem with your feedback. If you have any suggestions, please contact ich.bin.abe@gmail.com
+This will be built in tandem with your feedback. If you have any suggestions, please contact 
+[ctil@iu.edu](ctil@iu.edu)

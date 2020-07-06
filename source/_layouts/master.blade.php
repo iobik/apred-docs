@@ -41,46 +41,46 @@
     <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
         <header class="flex items-center shadow bg-white border-b h-10 mb-8 py-8" role="banner">
             <div class="container flex justify-between items-center max-w-8xl mx-auto px-4 lg:px-8">
-                <div class="flex items-center justify-start">
+                <div class="flex items-center ml-10 md:ml-0">
                     <a href="{{ $page->baseUrl }}/" title="{{ $page->siteName }} home" class="inline-flex items-center relative">
                         <img class="h-8 md:h-10 mr-3 hidden" src="/assets/img/logo.svg" alt="{{ $page->siteName }} logo" />
 
                         <span style="background-color: rgb(144, 147, 153);
-border-bottom-color: rgb(144, 147, 153);
-border-bottom-left-radius: 4px;
-border-bottom-right-radius: 4px;
-border-bottom-style: solid;
-border-bottom-width: 1px;
-border-left-color: rgb(144, 147, 153);
-border-left-style: solid;
-border-left-width: 1px;
-border-right-color: rgb(144, 147, 153);
-border-right-style: solid;
-border-right-width: 1px;
-border-top-color: rgb(144, 147, 153);
-border-top-left-radius: 4px;
-border-top-right-radius: 4px;
-border-top-style: solid;
-border-top-width: 1px;
-box-sizing: border-box;
-color: rgb(255, 255, 255);
-display: block;
-font-family: Avenir, Helvetica, Arial, sans-serif;
-font-size: 12px;
-height: 20px;
-left: -45px;
-line-height: 19px;
-margin-left: 10px;
-padding-bottom: 0px;
-padding-left: 5px;
-padding-right: 5px;
-padding-top: 0px;
-position: absolute;
-top: -3px;
-opacity: 0.3;
-transform: matrix(0.906308, -0.422618, 0.422618, 0.906308, 0, 0);
-white-space: nowrap;
--moz-osx-font-smoothing: grayscale;">
+                            border-bottom-color: rgb(144, 147, 153);
+                            border-bottom-left-radius: 4px;
+                            border-bottom-right-radius: 4px;
+                            border-bottom-style: solid;
+                            border-bottom-width: 1px;
+                            border-left-color: rgb(144, 147, 153);
+                            border-left-style: solid;
+                            border-left-width: 1px;
+                            border-right-color: rgb(144, 147, 153);
+                            border-right-style: solid;
+                            border-right-width: 1px;
+                            border-top-color: rgb(144, 147, 153);
+                            border-top-left-radius: 4px;
+                            border-top-right-radius: 4px;
+                            border-top-style: solid;
+                            border-top-width: 1px;
+                            box-sizing: border-box;
+                            color: rgb(255, 255, 255);
+                            display: block;
+                            font-family: Avenir, Helvetica, Arial, sans-serif;
+                            font-size: 12px;
+                            height: 20px;
+                            left: -45px;
+                            line-height: 19px;
+                            margin-left: 10px;
+                            padding-bottom: 0px;
+                            padding-left: 5px;
+                            padding-right: 5px;
+                            padding-top: 0px;
+                            position: absolute;
+                            top: -3px;
+                            opacity: 0.3;
+                            transform: matrix(0.906308, -0.422618, 0.422618, 0.906308, 0, 0);
+                            white-space: nowrap;
+                            -moz-osx-font-smoothing: grayscale;">
                             <b style="color: rgb(255, 255, 255);
                                 font-family: Avenir, Helvetica, Arial, sans-serif;
                                 font-size: 12px;
@@ -95,6 +95,10 @@ white-space: nowrap;
                             <span class="text-red-700">
                                 APRED
                             </span>
+
+                            <span class="font-light text-sm hidden md:inline">
+                                Analysis Platform for Risk, Resilience and Expenditure in Disasters
+                            </span>
                         </h1>
                     </a>
                 </div>
@@ -105,7 +109,7 @@ white-space: nowrap;
                         </a>
                     </div>
                 @else 
-                    <div class="justify-end flex items-center">
+                    <div class="justify-end hidden md:flex items-center">
                         <span class="inline-block text-xl pr-4">
                             CTIL
                         </span> 

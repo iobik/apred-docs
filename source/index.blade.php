@@ -5,8 +5,8 @@
     <div class="flex flex-col-reverse mb-10 lg:flex-row lg:mb-24">
         <div class="mt-8">
             <h1 id="intro-docs-template" class="text-xl text-gray-600 font-thin">
-                Welcome to <span class="font-semibold">
-                    APRED (Analysis Platform for Risk, Resilience and Expenditure in Disasters)
+                Welcome to the <span class="font-semibold">
+                    Analysis Platform for Risk, Resilience and Expenditure in Disasters (APRED)
                 </span>
             </h1>
 
