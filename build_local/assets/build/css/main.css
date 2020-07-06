@@ -819,8 +819,8 @@ h2 {
 }
 
 h3 {
-  font-weight: 700;
-  font-size: 1.25rem;
+  font-weight: 100;
+  font-size: 1.75rem;
 }
 
 h4 {
@@ -1005,6 +1005,27 @@ pre code {
   font-size: .925rem;
 }
 
+#docs-content h1:first-child {
+  margin-top: 0;
+}
+
+#docs-content h1, #docs-content h2 {
+  margin-top: 5rem;
+}
+
+#docs-content h3 {
+  margin-top: 4rem;
+}
+
+#docs-content h4 {
+  margin-top: 2.5rem;
+}
+
+#docs-content li ul,
+#docs-content li ol {
+  padding-left: 2.5rem;
+}
+
 #docs-content > ul a {
   --text-opacity: 1;
   color: #718096;
@@ -1024,7 +1045,10 @@ pre code {
 #docs-content img {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 2.5rem;
+}
+
+#docs-content img + p {
+  margin-top: 2.5rem;
 }
 
 .docsearch-input {

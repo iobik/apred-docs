@@ -1,6 +1,28 @@
 // Add your custom styles here
 
 #docs-content {    
+    h1:first-child {
+        @apply .mt-0;
+    }
+    h1, h2 {
+        @apply .mt-20;
+    }
+
+    h3 {
+        @apply .mt-16;
+    }
+
+    h4 {
+        @apply .mt-10;
+    }
+
+    li {
+        ul,
+        ol {
+            @apply .pl-10;
+        }
+    }
+    
     & > ul a {
         @apply .text-gray-600;
         @apply .text-lg;
@@ -17,6 +39,9 @@
 
     img {
         @apply .mx-auto;
-        @apply .mb-10;
+    }
+
+    img + p {
+        @apply .mt-10;
     }
 }

@@ -7,6 +7,12 @@ section: content
 
 - [Introduction](#introduction)
 - [BRIC Index Categories](#bric)
+    - [Economic](#economic)
+    - [Social](#social)
+    - [Environmental](#environmental)
+    - [Institutional](#institutional)
+    - [Infrastructural](#infrastructural)
+    - [Community Capital](#community-capital)
 - [Who does this Information Help?](#help)
 - [Computation/Data Source](#data-source)
 
@@ -17,14 +23,19 @@ The Disaster Resilience Index section provides information on the Baseline Resil
 > The BRIC framework is provided by [Cutter et al. (2010)](http://resiliencesystem.com/sites/default/files/Cutter_jhsem.2010.7.1.1732.pdf).
 
 ## BRIC {#bric}
-The **BRIC** index comprises six categories for disaster resilience:
+The **BRIC** index comprises six categories for disaster resilience
 
-- [Economic](#economic)
-- [Social](#social)
-- [Environmental](#environmental)
-- [Institutional](#institutional)
-- [Infrastructural](#infrastructural)
-- [Community Capital](#community-capital)
+### Economic {#economic}
+
+### Social {#social}
+
+### Environmental {#environmental}
+
+### Institutional] {#institutional}
+
+### Infrastructural] {#infrastructural}
+
+### Community Capital {#community-capital}
 
 ## Who does this Information Help? {#help}
 1. An EDA Officer looking to review the disaster profile of a county/an applicant.
