@@ -24,70 +24,22 @@
 
         
         
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+
+
         <link rel="stylesheet" href="http://apred.test/assets/build/css/main.css">
 
             </head>
 
-    <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
-        <header class="flex items-center shadow bg-white border-b h-10 mb-8 py-8" role="banner">
-            <div class="container flex justify-between items-center max-w-8xl mx-auto px-4 lg:px-8">
-                <div class="flex items-center ml-10 md:ml-0">
+    <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans mx-4 lg:mx-0">
+        <header class="flex items-center h-10 mb-8 py-12" role="banner">
+            <div class="container flex justify-between items-center mx-auto">
+                <div class="flex items-center">
                     <a href="http://apred.test/" title="APRED (Analysis Platform for Risk and Expenditure in Disaster) home" class="inline-flex items-center relative">
-                        <img class="h-8 md:h-10 mr-3 hidden" src="/assets/img/logo.svg" alt="APRED (Analysis Platform for Risk and Expenditure in Disaster) logo" />
-
-                        <span style="background-color: rgb(144, 147, 153);
-                            border-bottom-color: rgb(144, 147, 153);
-                            border-bottom-left-radius: 4px;
-                            border-bottom-right-radius: 4px;
-                            border-bottom-style: solid;
-                            border-bottom-width: 1px;
-                            border-left-color: rgb(144, 147, 153);
-                            border-left-style: solid;
-                            border-left-width: 1px;
-                            border-right-color: rgb(144, 147, 153);
-                            border-right-style: solid;
-                            border-right-width: 1px;
-                            border-top-color: rgb(144, 147, 153);
-                            border-top-left-radius: 4px;
-                            border-top-right-radius: 4px;
-                            border-top-style: solid;
-                            border-top-width: 1px;
-                            box-sizing: border-box;
-                            color: rgb(255, 255, 255);
-                            display: block;
-                            font-family: Avenir, Helvetica, Arial, sans-serif;
-                            font-size: 12px;
-                            height: 20px;
-                            left: -45px;
-                            line-height: 19px;
-                            margin-left: 10px;
-                            padding-bottom: 0px;
-                            padding-left: 5px;
-                            padding-right: 5px;
-                            padding-top: 0px;
-                            position: absolute;
-                            top: -3px;
-                            opacity: 0.3;
-                            transform: matrix(0.906308, -0.422618, 0.422618, 0.906308, 0, 0);
-                            white-space: nowrap;
-                            -moz-osx-font-smoothing: grayscale;">
-                            <b style="color: rgb(255, 255, 255);
-                                font-family: Avenir, Helvetica, Arial, sans-serif;
-                                font-size: 12px;
-                                line-height: 19px;
-                                white-space: nowrap;
-                                -moz-osx-font-smoothing: grayscale;">
-                                BETA
-                            </b>
-                        </span>
-
-                        <h1 class="text-xl text-blue-900 font-bold hover:text-blue-600 my-0 pr-4">
-                            <span class="text-red-700">
+                        <h1 class="text-3xl font-bold hover:text-red-600 my-0 pr-4">
+                            <span class="text-burgundy">
                                 APRED
-                            </span>
-
-                            <span class="font-light text-sm hidden md:inline">
-                                Analysis Platform for Risk, Resilience and Expenditure in Disasters
                             </span>
                         </h1>
                     </a>
@@ -190,8 +142,10 @@
     </ul>
 
             <section class="pt-10 block flex flex-wrap lg:hidden">
-                <a href="https://ctil.iu.edu/projects/apred/#/" class="btn primary text-sm w-full text-center">
-                    Start Using APRED
+                <a href="https://ctil.iu.edu/projects/apred/#/">
+                     <button class="py-2 px-4 bg-burgundy text-white rounded-lg">
+    Start Using APRED
+</button> 
                 </a>
             </section>
         </nav>
@@ -283,8 +237,10 @@
                 <a href="#docs-content" class="pr-8 underline">
                     Back to Top of Page
                 </a>
-                <a href="https://ctil.iu.edu/projects/apred/#/" class="btn primary">
-                    Start Using APRED
+                <a href="https://ctil.iu.edu/projects/apred/#/">
+                     <button class="py-2 px-4 bg-burgundy text-white rounded-lg">
+    Start Using APRED
+</button> 
                 </a>
             </footer>
         </div>
@@ -306,49 +262,70 @@
     }
 </script>
 
-        <footer id="site-footer" class="mt-12 py-48" role="contentinfo">
-            <ul class="container max-w-8xl mx-auto px-6">
-                <li class="block mb-12">
-                    <p class="max-w-4xl">
-                        This platform brings data science to decision-makers dealing with the economics of disaster mitigation, analysis, and recovery activities. 
-                    </p>
-
-                    <p class="max-w-4xl">
+        <footer class="pt-16 bg-burgundy text-white -mx-4 lg:-mx-8" role="contentinfo">
+            <main class="container grid grid-cols-2 mx-auto gap-32 mb-16">
+                <section class="col-span-2 lg:col-span-1 inline-block align-middle">
+                    <p>
                         This publication was prepared by the CTIL and IBRC at Indiana University using Federal funds 
                         awarded to the Trustees of Indiana University and as a sub-component under award number 
                         ED17HDQ3120040 from the U.S. Economic Development Administration, U.S. Department of Commerce. 
                         The statements, findings, conclusions, and recommendations are those of the author(s) and 
                         do not necessarily reflect the views of the Economic Development Administration or the U.S. Department 
-                        of Commerce. 
+                        of Commerce.
                     </p>
-                </li>
-                
-                <li class="inline-block">
-                    CTIL
-                    <a class="underline" href="https://ctil.iu.edu" title="CTIL website">
-                        Crisis Technologies Innovation Lab
-                    </a> 
-                </li>
 
-                <li class="inline-block float-right md:pl-4">
-                    <a href="mailto:ctil@iu.edu">
-                        clil@iu.edu
-                    </a> | 
-                    <a href="mailto:ctil@iu.edu">
+                    <div>
+                        <span class="font-bold">
+                            Email: 
+                        </span>
+                        <a href="mailto:ctil@iu.edu" class="custom-decoration">
+                            clil@iu.edu
+                        </a>
+                    </div>
+                </section>
+                <section class="col-span-2 lg:col-span-1">
+                    <header class="font-bold mb-6">
+                        Supported By:
+                    </header>
+
+                    <main class="space-y-4">
+                        <div>
+                            <a class="undecorated" target="_blank" href="https://www.eda.gov/">
+                                <img class="w-16 inline-block mr-12" src="/assets/img/eda-seal.png" />
+                            </a>
+                            <a class="custom-decoration" target="_blank" href="https://www.eda.gov/">
+                                U.S. Economic Development Administration
+                            </a>
+                        </div>
+                        <div>
+                            <a class="undecorated" target="_blank" href="https://ibrc.kelley.iu.edu/">
+                                <img class="w-20 inline-block mr-8" src="/assets/img/ibrc-white-logo.png" />
+                            </a>
+                            <a class="custom-decoration" target="_blank" href="https://ibrc.kelley.iu.edu/">
+                                Indiana Business Research Center
+                            </a>
+                        </div>
+                        <div>
+                            <a class="undecorated" target="_blank"  href="https://ctil.iu.edu/index.html">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAACWCAIAAAB2EXwkAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAmBJREFUeNrs3T1OG0EAgFE7QqF1kcYcgBqJA3i3D2fAVWrfAI5ASyr7CAj3LA21EZ2rrZIGJCSqpCEToYjIkGCS2WF29b4SiWWGJ8/+aOXpH/f0xr3zL2AgBgzEgIEYMBADBmLAQAwYiAEDMWAgBgz0TBsZjun9YPBhZ6eJI18vFt9vbxm8XAD4eHbWxJHnZfmlqqxFYsBADBiIAQM9X78t711/ur9/7a987vd9DsSAgRgw0NpFeG66V1XD0SjusBq6pPmHi6u/9/X8/LQofA6sRWLAQAwYiIH7g19dTCabg8HvP9kej7f399c/wnI2W06nCWY7L8u44/wW402ZCAY3i8XKT4avvG25q+s0r5ys/JVMxmktcj4QAwZiwEAMGIgBAzFgIAYMxICBGDAQAwZiwEAMGIgBAzFgIAYMxICBGDAQAwZiwEAMGIgBA61fFvuAbBVF7/Aw+mF3Xzrm1n9/FV13DIajUfRvJfxpcHBgLRIDBmLAQG9rkOFefDnPqxGDq6Oj5WzWMYAwozCvNq1F1XjcJYYwlzCj9p0POsPQKEDj5+QOMDQNkOK6qNUMCQASXZteTCY3l5etA6hPThIAJDIIl3SnRdEuhjDaNADp7tHaxRDGGUab7C4n3X1yWxgSA6R+VpE/Q3qAnv0yc8gzOwZiwEAMGIgBAzFgoMc28hzWboxXgJ8eZDmd3tV1bpPN9HlR9A2/H5qXZZrN8KxFzgdiwEAMGIgBAzFoaZk+q1jZ+D5W10+2nWfwxzJ8omAtYiAGDMSAgRgwEAMGYsBADBiIAQMxYCAGDJS2HwIMAK+RvsulC4ZHAAAAAElFTkSuQmCC" 
+                                class="w-12 inline-block mr-16">
+                            </a>
+                            <a class="custom-decoration" target="_blank"  href="https://ctil.iu.edu/index.html">
+                                CTIL | Indiana University, Bloomington
+                            </a>
+                        </div>
+                    </main>
+                </section>
+            </main>
+
+            <aside class="border-t border-gray-200 py-10">
+                <div class="container mx-auto">
+                    Copyright © 2021 The Trustees of Indiana University | Privacy Notice | Accessibility | Sitemap | 
+                    <a href="https://ctil.iu.edu/contact-us/index.html" class="custom-decoration">
                         Contact Us
                     </a>
-                </li> 
-
-                <li class="block mt-4 lg:mt-2">
-                    <a href="https://www.iu.edu/copyright/index.html">
-                        Copyright
-                    </a> &copy; 2020 The Trustees of 
-                    <a href="https://www.iu.edu/">
-                        Indiana University
-                    </a>
-                </li>
-
-            </ul>
+                </div>
+            </aside>
         </footer>
     </body>
 </html>

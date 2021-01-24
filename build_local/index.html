@@ -26,79 +26,38 @@
 
         
         
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+
+
         <link rel="stylesheet" href="http://apred.test/assets/build/css/main.css">
 
             </head>
 
-    <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans">
-        <header class="flex items-center shadow bg-white border-b h-10 mb-8 py-8" role="banner">
-            <div class="container flex justify-between items-center max-w-8xl mx-auto px-4 lg:px-8">
-                <div class="flex items-center ml-10 md:ml-0">
+    <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans mx-4 lg:mx-0">
+        <header class="flex items-center h-10 mb-8 py-12" role="banner">
+            <div class="container flex justify-between items-center mx-auto">
+                <div class="flex items-center">
                     <a href="http://apred.test/" title="APRED (Analysis Platform for Risk and Expenditure in Disaster) home" class="inline-flex items-center relative">
-                        <img class="h-8 md:h-10 mr-3 hidden" src="/assets/img/logo.svg" alt="APRED (Analysis Platform for Risk and Expenditure in Disaster) logo" />
-
-                        <span style="background-color: rgb(144, 147, 153);
-                            border-bottom-color: rgb(144, 147, 153);
-                            border-bottom-left-radius: 4px;
-                            border-bottom-right-radius: 4px;
-                            border-bottom-style: solid;
-                            border-bottom-width: 1px;
-                            border-left-color: rgb(144, 147, 153);
-                            border-left-style: solid;
-                            border-left-width: 1px;
-                            border-right-color: rgb(144, 147, 153);
-                            border-right-style: solid;
-                            border-right-width: 1px;
-                            border-top-color: rgb(144, 147, 153);
-                            border-top-left-radius: 4px;
-                            border-top-right-radius: 4px;
-                            border-top-style: solid;
-                            border-top-width: 1px;
-                            box-sizing: border-box;
-                            color: rgb(255, 255, 255);
-                            display: block;
-                            font-family: Avenir, Helvetica, Arial, sans-serif;
-                            font-size: 12px;
-                            height: 20px;
-                            left: -45px;
-                            line-height: 19px;
-                            margin-left: 10px;
-                            padding-bottom: 0px;
-                            padding-left: 5px;
-                            padding-right: 5px;
-                            padding-top: 0px;
-                            position: absolute;
-                            top: -3px;
-                            opacity: 0.3;
-                            transform: matrix(0.906308, -0.422618, 0.422618, 0.906308, 0, 0);
-                            white-space: nowrap;
-                            -moz-osx-font-smoothing: grayscale;">
-                            <b style="color: rgb(255, 255, 255);
-                                font-family: Avenir, Helvetica, Arial, sans-serif;
-                                font-size: 12px;
-                                line-height: 19px;
-                                white-space: nowrap;
-                                -moz-osx-font-smoothing: grayscale;">
-                                BETA
-                            </b>
-                        </span>
-
-                        <h1 class="text-xl text-blue-900 font-bold hover:text-blue-600 my-0 pr-4">
-                            <span class="text-red-700">
+                        <h1 class="text-3xl font-bold hover:text-red-600 my-0 pr-4">
+                            <span class="text-burgundy">
                                 APRED
-                            </span>
-
-                            <span class="font-light text-sm hidden md:inline">
-                                Analysis Platform for Risk, Resilience and Expenditure in Disasters
                             </span>
                         </h1>
                     </a>
                 </div>
                  
-                    <div class="justify-end hidden md:flex items-center">
-                        <span class="inline-block text-xl pr-4">
-                            CTIL
-                        </span> 
+                    <div class="justify-end hidden md:flex items-center space-x-16">   
+                        <nav class="flex space-x-6">
+                            <a class="text-gray-700 text-xl font-light inline-block custom-decoration" href="/docs/getting-started">
+                                Use Cases
+                            </a>  
+
+                            <a class="text-gray-700 text-xl font-light inline-block custom-decoration" href="/docs/getting-started">
+                                About
+                            </a> 
+                        </nav> 
+
                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAACWCAIAAAB2EXwkAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAmBJREFUeNrs3T1OG0EAgFE7QqF1kcYcgBqJA3i3D2fAVWrfAI5ASyr7CAj3LA21EZ2rrZIGJCSqpCEToYjIkGCS2WF29b4SiWWGJ8/+aOXpH/f0xr3zL2AgBgzEgIEYMBADBmLAQAwYiAEDMWAgBgz0TBsZjun9YPBhZ6eJI18vFt9vbxm8XAD4eHbWxJHnZfmlqqxFYsBADBiIAQM9X78t711/ur9/7a987vd9DsSAgRgw0NpFeG66V1XD0SjusBq6pPmHi6u/9/X8/LQofA6sRWLAQAwYiIH7g19dTCabg8HvP9kej7f399c/wnI2W06nCWY7L8u44/wW402ZCAY3i8XKT4avvG25q+s0r5ys/JVMxmktcj4QAwZiwEAMGIgBAzFgIAYMxICBGDAQAwZiwEAMGIgBAzFgIAYMxICBGDAQAwZiwEAMGIgBA61fFvuAbBVF7/Aw+mF3Xzrm1n9/FV13DIajUfRvJfxpcHBgLRIDBmLAQG9rkOFefDnPqxGDq6Oj5WzWMYAwozCvNq1F1XjcJYYwlzCj9p0POsPQKEDj5+QOMDQNkOK6qNUMCQASXZteTCY3l5etA6hPThIAJDIIl3SnRdEuhjDaNADp7tHaxRDGGUab7C4n3X1yWxgSA6R+VpE/Q3qAnv0yc8gzOwZiwEAMGIgBAzFgoMc28hzWboxXgJ8eZDmd3tV1bpPN9HlR9A2/H5qXZZrN8KxFzgdiwEAMGIgBAzFoaZk+q1jZ+D5W10+2nWfwxzJ8omAtYiAGDMSAgRgwEAMGYsBADBiIAQMxYCAGDJS2HwIMAK+RvsulC4ZHAAAAAElFTkSuQmCC" 
                         class="h-16 inline-block">
                     </div>
@@ -109,153 +68,187 @@
                     </header>
 
         <main role="main" class="w-full flex-auto">
-            <section class="container max-w-8xl mx-auto px-4 lg:px-8 py-10 md:py-12">
-    <div class="flex flex-col-reverse mb-10 lg:flex-row lg:mb-24">
-        <div class="mt-8">
-            <h1 id="intro-docs-template" class="text-xl text-gray-600 font-thin">
-                Welcome to the <span class="font-semibold">
-                    Analysis Platform for Risk, Resilience and Expenditure in Disasters (APRED)
-                </span>
-            </h1>
+            <section class="container mx-auto grid grid-cols-2 py-16 gap-24">
+    <main class="col-span-2 xl:col-span-1 py-32">
+        <h1 class="text-2xl text-gray-600 font-light mb-12 max-w-lg">
+            <span class="font-bold">APRED</span> is a map-based tool for exploring the 
+            disaster resilience and vulnerability profiles
+            of counties across the United States.
+        </h1>
 
-            <p class="mt-12 max-w-xl">
-                APRED provides information on the Major Disaster Declarations declared under the Robert T. Stafford Disaster 
-                Relief and Emergency Assistance Act that may support eligibility for investment assistance from 
-                EDA (the U.S. Economic Development Administration).The EDA provides investment assistance to communities 
-                and regions to device and implement long-term economic recovery strategies through a variety of 
-                construction and non-construction projects.
-            </p>   
-            
-            <p class="mt-4 max-w-xl">
-                APRED also allows economic development practitioners to explore the disaster resilience 
-                scores of their county, likewise, the number of businesses within their county that 
-                could be more vulnerable to hazards and disasters because of the nature of the business, 
-                i.e., low infrastructure mobility, high reliance on public utilities like water and electricity, etc. 
-                Further, the end-users can also use APRED to review the storm history of the given county.
-            </p>
+        <a href="https://ctil.iu.edu/projects/apred/#">
+             <button class="py-2 px-4 bg-burgundy text-white rounded-lg">
+    Get Started >
+</button> 
+        </a>
+    </main>
 
-            <div class="flex flex-wrap space-y-4 md:space-y-0 mt-20 mb-10">
-                <a href="http://apred.test/docs/getting-started" title="APRED (Analysis Platform for Risk and Expenditure in Disaster) getting started" class="w-full text-center btn bg-gray-600 md:flex-1">
-                    Learn how to use APRED
-                </a>
+    <aside class="col-span-2 xl:col-span-1">
+        <div class="bg-cream px-4 py-12 mx-auto flex justify-between space-x-4">
+            <aside class="px-6">
+                 <div style="background: #D9D9D9" class="p-2 rounded-full">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <rect width="20" height="20" fill="url(#pattern0)"/>
+        <defs>
+        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+        <use xlink:href="#image0" transform="scale(0.00195312)"/>
+        </pattern>
+        <image id="image0" width="512" height="512" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAMAAADDpiTIAAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAFptAABabQFo0gJVAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAARRQTFRF////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATuftfQAAAFt0Uk5TAAECAwQHCQ8SFBcZGhwdHh8gIywtLjI8PkVIS05PUFFSU1RaXmFnbHJ1eHl6f4WHj5CUmp2en6ChoqOkq6yvsbq7wMLHyMrN09nb3N3e3+jq7e/y8/X2+fr7/VZ5IE8AAAW4SURBVHja7d1Zo5VzGIfhVyGliSZkKKHRLEoyU4Zo3mv3fP/v4UR1TNq13Nf9Cd7/c/0O1tlaFkmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSpHSvnPnqm/dfe8Yhmu26PDMz8/3LblHsyI35uzvHXSPof3setPm2e5T9LaDubwF1/5lNvwPS/hZQ97eAur8F1P0toO5vAXX/mc1jLlT2t4C6vwXU/S2g7m8Bdf+ZlQWk/S2g7j+zesu9yv4WUPe3gLq/BdT9LaDubwF1fwuo+8+s3nS9sr8F1P0toO5vAXV/C6j7W0Dd3wLq/jOrN9yy7G8BdX8LqPtbQN3fAur+FlD3t4C6/8zqdZct+1tA3d8C6v4zGxaQ9reAur8F1P1nNg65ctl/5sqz7lz2nznp0Gn/uezSaf+55tRp/7nh1mn/+c6x0/7zoWun/W/udu6y/7zr3Gn/z5w77X9+m3vzF3/xF3/xF3/xF3/xF3/xF3/xF3/xF3/xF3/xF3/xF3/xF3/xF3/xF3/xF3/xF3/xF3/xF3/x58+fP3/+/Pnz58+fP3/+/Pn/l33On7/4i7/4i7/4i7/4i7/4i7/4i7/4i7/4i7/4i7/4i7/4i7/4i7/4i7/4i7/4i7/4i7/S/ruPnjv96k7uUf/nP7o3M7Nxdjv6ov+BX+5/zM974Pf8D15/+Dm/WkDa3wLq/hZQ988vIO8/89se/mX/9AL4txfAv72ArfT/4mn2jy6Af3sB/NsL4N9eAP/2Avi3F8C/vQD+7QXwby+Af3sB/NsL4N9eAP/2Avi3F8C/vQD+7QXwby+Af3sB/NsL4N9eAP/2Avi3F8D/3y1gL/+y//9mAfzbC+DfXgD/9gL4P2K/7+Vf9l/zBfBvL4B/ewH82wvg314A//YC+LcXEPN/8frjfuSaLSDmv3z9+J+5Vguo+R/bioeu0QJq/suFsYCy/3J1LKDsv9waCyj7Lz+OBZT9l0/GAsr+y+FNCyj7L8sHYwFl/+W5nyxgi/0vPF3//7nDAtL+FlD3t4C6f34Bef/4Avi3F8C/vQD+7QXwby+Af3sB/J/cAvbxtwD+5QVc28ffAvhbAH8L4G8B/C2AvwXwtwD+FsDfAvhbAH8L4G8B/C2AvwXwtwD+FsDfAvhbAH8L4G8B/C2AvwXwtwD+FsDfAvhbAH8L4G8B/C2AvwXwtwD+a7+A/fzbC/hj/9r4X6z4r9EC+LcXwL+9AP7tBfBvL4B/ewH82wvg314A//YC+LcXwL+9AP7tBfBvL4B/ewH82wvg314A//YC+LcXwL+9AP7tBfBvL4B/ewH82wvg314A//YC+LcXwL+9AP7tBfBvL4B/ewH82ws4wb+9gOFvAfwtgL8F8LcA/hbA3wL4WwB/C+BvAfwtgL8F8LcA/hbA3wL4W8A/60v+6QXwby+Af3sB/NsL4N9eAP/2Avi3F8C/vQD+7QXwby+Af3sB/NsL4N9eAP/2Avi3F8C/vQD+7QXwby+Af3sB/NsL4N9eAP/2Avi3F8C/vQD+7QXwby+Af3sB/NsL4N9eAP/2Avi3F8C/vQD+7QXwby+Af3sB/NsL4N9eAP/2Avi3F8C/vQD+7QXwby+Af3sB/NsL4N9eAP/2Ai7xTy+Af3sB/NsL4N9eAP/2Avi3F8C/vQD+7QXwby+Af3sBl7Y7ZnkB/NsL4N9eAP/2Avi3F8C/vQD+7QXwby+Af3sB/NsL4N9eAP/2Avi3F8C/vQD+7QXwby+Af3sB/NsL4N9eAP/2Avi3F8C/vQD+7QXwby+Af3sB/NsL4N9eAP/2Avi3F8C/vQD+xQX88MD/PP9i207dnZmZP4+7RbSX3vv024/fecEhJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEmSJEnSE+kvquZnZa06qCcAAAAASUVORK5CYII="/>
+        </defs>
+    </svg>
+</div> 
+            </aside>
 
-                <a href="https://ctil.iu.edu/projects/apred/#/" class="w-full text-center md:flex-1 btn primary">
-                    Start Using APRED
-                </a>
+            <div>
+                <header class="text-xl font-semibold mb-6">
+                    Use Cases
+                </header>
+
+                <main>
+                    Practitioners and policy makers involved with 
+                    disaster resilience and economic development 
+                    can use APRED to visualize and drill-down into 
+                    resilience metrics for a particular county. 
+                    <a href="/docs/getting-started" class="custom-decoration text-burgundy">Learn more about use cases.</a>
+                </main>
             </div>
         </div>
-    </div>
 
-    <section class="block mt-10 hidden">
-        <header class="mb-6 text-3xl font-thin">
-            How we measure eligibility: 
-        </header>
+        <div class="bg-cream-thick px-4 py-12 mx-auto flex justify-between space-x-4">
+            <aside class="px-6">
+                 <div style="background: #D9D9D9" class="p-2 rounded-full">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <rect width="20" height="20" fill="url(#pattern0)"/>
+        <defs>
+        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+        <use xlink:href="#image0" transform="scale(0.00195312)"/>
+        </pattern>
+        <image id="image0" width="512" height="512" xlink:href="data:image/png;base64,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"/>
+        </defs>
+    </svg>
+</div> 
+            </aside>
 
-        <main class="flex flex-wrap">
-            <div class="w-full mb-20 lg:w-1/3">
-                <header class="font-semibold">
-                    Comparing to existing EDA Disaster Declarations
+            <div>
+                <header class="text-xl font-semibold mb-6">
+                    Why APRED?
                 </header>
 
-                <p>
-                    View current and historical information on disaster supplemental appropriation.
-                    The platform combines text mining techniques and 
-                    data sets on EDA expenditures on disaster supplemental funding
-                    to categorize expenditures according to counties and expenditure type. 
-                </p>
-
-                <footer clas="pt-6">
-                    <p class="block text-gray-600">
-                        Powered by EDA Data & Text-mining
-                    </p>
-                </footer>
+                <main>
+                    Practitioners and policy makers involved with 
+                    disaster resilience and economic development 
+                    can use APRED to visualize and drill-down into 
+                    resilience metrics for a particular county. 
+                    Learn more about use cases.
+                </main>
             </div>
-
-            <div class="w-full mb-20 lg:w-1/3">
-                <header class="font-semibold">
-                    Disaster Resilience Index
-                </header>
-
-                <p>
-                    View any location's resilience
-                </p>
-
-                <footer class="pt-6">
-                    <p class="block text-gray-600">
-                        Powered by BRICS - Baseline Resilience Indicators for Communities
-                    </p>
-                </footer>
-            </div>
-
-            <div class="w-full mb-20 lg:w-1/3">
-                <header class="font-semibold">
-                    Business Vulnerability Index (BVI)
-                </header>
-
-                <p>
-                    View how vulnerable businesses contained in 
-                    any given area are. 
-                </p>
-
-                <footer clas="pt-6">
-                    <p class="block text-gray-600">
-                        Powered by NAICS Census code
-                    </p>
-                </footer>
-            </div>
-        </main>
-    </section>
-
-    
+        </div>
+    </aside>
 </section>
+
+<section class="bg-cream py-12 -mx-4 lg:-mx-8">
+    <div class="container mx-auto lg:grid lg:grid-cols-2 lg:gap-24">
+        <main class="lg:col-span-1 py-16">
+            <header class="text-2xl font-normal">
+                Overview
+            </header>
+
+            <p class="">
+                The annual cost of disasters to the U.S. economy is immense, 
+                with natural disasters such as
+                hurricanes, earthquakes, flooding 
+                and tornados costing often hundreds of billions of dollars a
+                year. 
+                With a significant increase in the number and cost of declared 
+                disasters in the
+                U.S. over the last decade, there is strong interest 
+                in techniques for quantifying the risk of certain
+                kinds of hazardous 
+                events... <a href="/docs/getting-started" class="custom-decoration text-burgundy">Read more</a>
+            </p>
+        </main>
+
+        <aside class="hidden lg:mt-16 lg:block lg:col-span-1">
+             <svg viewBox="0 0 540 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M404 180L539.1 359.25H268.9L404 180Z" fill="#E5E5E5"/>
+    <path d="M270 360L405.1 180.75H134.9L270 360Z" fill="#A90533"/>
+    <path d="M136 181L271.1 1.75H0.90004L136 181Z" fill="#D9D9D9"/>
+    <path d="M404 180L539.1 0.75H268.9L404 180Z" fill="#E5E5E5"/>
+    <path d="M271 2L406.1 181.25H135.9L271 2Z" fill="#D9D9D9"/>
+</svg> 
+        </aside>
+    </div>
+</section>
+
         </main>
 
         <script src="http://apred.test/assets/build/js/main.js"></script>
 
         
-        <footer id="site-footer" class="mt-12 py-48" role="contentinfo">
-            <ul class="container max-w-8xl mx-auto px-6">
-                <li class="block mb-12">
-                    <p class="max-w-4xl">
-                        This platform brings data science to decision-makers dealing with the economics of disaster mitigation, analysis, and recovery activities. 
-                    </p>
-
-                    <p class="max-w-4xl">
+        <footer class="pt-16 bg-burgundy text-white -mx-4 lg:-mx-8" role="contentinfo">
+            <main class="container grid grid-cols-2 mx-auto gap-32 mb-16">
+                <section class="col-span-2 lg:col-span-1 inline-block align-middle">
+                    <p>
                         This publication was prepared by the CTIL and IBRC at Indiana University using Federal funds 
                         awarded to the Trustees of Indiana University and as a sub-component under award number 
                         ED17HDQ3120040 from the U.S. Economic Development Administration, U.S. Department of Commerce. 
                         The statements, findings, conclusions, and recommendations are those of the author(s) and 
                         do not necessarily reflect the views of the Economic Development Administration or the U.S. Department 
-                        of Commerce. 
+                        of Commerce.
                     </p>
-                </li>
-                
-                <li class="inline-block">
-                    CTIL
-                    <a class="underline" href="https://ctil.iu.edu" title="CTIL website">
-                        Crisis Technologies Innovation Lab
-                    </a> 
-                </li>
 
-                <li class="inline-block float-right md:pl-4">
-                    <a href="mailto:ctil@iu.edu">
-                        clil@iu.edu
-                    </a> | 
-                    <a href="mailto:ctil@iu.edu">
+                    <div>
+                        <span class="font-bold">
+                            Email: 
+                        </span>
+                        <a href="mailto:ctil@iu.edu" class="custom-decoration">
+                            clil@iu.edu
+                        </a>
+                    </div>
+                </section>
+                <section class="col-span-2 lg:col-span-1">
+                    <header class="font-bold mb-6">
+                        Supported By:
+                    </header>
+
+                    <main class="space-y-4">
+                        <div>
+                            <a class="undecorated" target="_blank" href="https://www.eda.gov/">
+                                <img class="w-16 inline-block mr-12" src="/assets/img/eda-seal.png" />
+                            </a>
+                            <a class="custom-decoration" target="_blank" href="https://www.eda.gov/">
+                                U.S. Economic Development Administration
+                            </a>
+                        </div>
+                        <div>
+                            <a class="undecorated" target="_blank" href="https://ibrc.kelley.iu.edu/">
+                                <img class="w-20 inline-block mr-8" src="/assets/img/ibrc-white-logo.png" />
+                            </a>
+                            <a class="custom-decoration" target="_blank" href="https://ibrc.kelley.iu.edu/">
+                                Indiana Business Research Center
+                            </a>
+                        </div>
+                        <div>
+                            <a class="undecorated" target="_blank"  href="https://ctil.iu.edu/index.html">
+                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAACWCAIAAAB2EXwkAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAmBJREFUeNrs3T1OG0EAgFE7QqF1kcYcgBqJA3i3D2fAVWrfAI5ASyr7CAj3LA21EZ2rrZIGJCSqpCEToYjIkGCS2WF29b4SiWWGJ8/+aOXpH/f0xr3zL2AgBgzEgIEYMBADBmLAQAwYiAEDMWAgBgz0TBsZjun9YPBhZ6eJI18vFt9vbxm8XAD4eHbWxJHnZfmlqqxFYsBADBiIAQM9X78t711/ur9/7a987vd9DsSAgRgw0NpFeG66V1XD0SjusBq6pPmHi6u/9/X8/LQofA6sRWLAQAwYiIH7g19dTCabg8HvP9kej7f399c/wnI2W06nCWY7L8u44/wW402ZCAY3i8XKT4avvG25q+s0r5ys/JVMxmktcj4QAwZiwEAMGIgBAzFgIAYMxICBGDAQAwZiwEAMGIgBAzFgIAYMxICBGDAQAwZiwEAMGIgBA61fFvuAbBVF7/Aw+mF3Xzrm1n9/FV13DIajUfRvJfxpcHBgLRIDBmLAQG9rkOFefDnPqxGDq6Oj5WzWMYAwozCvNq1F1XjcJYYwlzCj9p0POsPQKEDj5+QOMDQNkOK6qNUMCQASXZteTCY3l5etA6hPThIAJDIIl3SnRdEuhjDaNADp7tHaxRDGGUab7C4n3X1yWxgSA6R+VpE/Q3qAnv0yc8gzOwZiwEAMGIgBAzFgoMc28hzWboxXgJ8eZDmd3tV1bpPN9HlR9A2/H5qXZZrN8KxFzgdiwEAMGIgBAzFoaZk+q1jZ+D5W10+2nWfwxzJ8omAtYiAGDMSAgRgwEAMGYsBADBiIAQMxYCAGDJS2HwIMAK+RvsulC4ZHAAAAAElFTkSuQmCC" 
+                                class="w-12 inline-block mr-16">
+                            </a>
+                            <a class="custom-decoration" target="_blank"  href="https://ctil.iu.edu/index.html">
+                                CTIL | Indiana University, Bloomington
+                            </a>
+                        </div>
+                    </main>
+                </section>
+            </main>
+
+            <aside class="border-t border-gray-200 py-10">
+                <div class="container mx-auto">
+                    Copyright © 2021 The Trustees of Indiana University | Privacy Notice | Accessibility | Sitemap | 
+                    <a href="https://ctil.iu.edu/contact-us/index.html" class="custom-decoration">
                         Contact Us
                     </a>
-                </li> 
-
-                <li class="block mt-4 lg:mt-2">
-                    <a href="https://www.iu.edu/copyright/index.html">
-                        Copyright
-                    </a> &copy; 2020 The Trustees of 
-                    <a href="https://www.iu.edu/">
-                        Indiana University
-                    </a>
-                </li>
-
-            </ul>
+                </div>
+            </aside>
         </footer>
     </body>
 </html>

@@ -523,7 +523,7 @@ ul {
  */
 
 html {
-  font-family: Avenir,Helvetica,Arial,sans-serif; /* 1 */
+  font-family: Roboto,Helvetica,Arial,sans-serif; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -731,7 +731,7 @@ body {
   font-size: 17px;
 }
 
-a {
+a:not(.custom-decoration) {
   font-weight: 600;
   text-decoration: none;
   --text-opacity: 1;
@@ -739,7 +739,7 @@ a {
   color: rgba(49, 130, 206, var(--text-opacity));
 }
 
-a:hover {
+a:not(.custom-decoration):hover {
   --text-opacity: 1;
   color: #2c5282;
   color: rgba(44, 82, 130, var(--text-opacity));
@@ -960,6 +960,22 @@ pre code {
 #site-footer {
   background-color: #333;
   color: #999;
+}
+
+.bg-cream {
+  background-color: #F0F0F0;
+}
+
+.bg-cream-thick {
+  background-color: #E5E5E5;
+}
+
+.bg-burgundy {
+  background-color: #A90533;
+}
+
+.text-burgundy {
+  color: #A90533;
 }
 
 .nav-menu {
@@ -7054,7 +7070,7 @@ pre code {
 }
 
 .font-sans{
-  font-family: Avenir,Helvetica,Arial,sans-serif;
+  font-family: Roboto,Helvetica,Arial,sans-serif;
 }
 
 .font-serif{
@@ -25342,7 +25358,7 @@ pre code {
   }
 
   .sm\:font-sans{
-    font-family: Avenir,Helvetica,Arial,sans-serif;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
   }
 
   .sm\:font-serif{
@@ -43623,7 +43639,7 @@ pre code {
   }
 
   .md\:font-sans{
-    font-family: Avenir,Helvetica,Arial,sans-serif;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
   }
 
   .md\:font-serif{
@@ -61904,7 +61920,7 @@ pre code {
   }
 
   .lg\:font-sans{
-    font-family: Avenir,Helvetica,Arial,sans-serif;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
   }
 
   .lg\:font-serif{
@@ -80185,7 +80201,7 @@ pre code {
   }
 
   .xl\:font-sans{
-    font-family: Avenir,Helvetica,Arial,sans-serif;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
   }
 
   .xl\:font-serif{

@@ -4,7 +4,7 @@ module.exports = {
       fontFamily: {
         sans: [
           //'Nunito Sans'
-          'Avenir,Helvetica,Arial,sans-serif'
+          'Roboto,Helvetica,Arial,sans-serif'
         ],
         mono: [
           'monospace',

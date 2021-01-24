@@ -2,7 +2,7 @@ body {
     font-size: 17px;
 }
 
-a {
+a:not(.custom-decoration) {
     @apply .font-semibold;
     @apply .no-underline;
     @apply .text-blue-600;
@@ -180,4 +180,20 @@ pre {
 #site-footer {
     background-color: #333;
     color: #999;
+}
+
+.bg-cream {
+    background-color: #F0F0F0;
+}
+
+.bg-cream-thick {
+    background-color: #E5E5E5;
+}
+
+.bg-burgundy {
+    background-color: #A90533;
+}
+
+.text-burgundy {
+    color: #A90533;
 }

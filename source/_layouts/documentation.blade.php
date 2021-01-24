@@ -12,8 +12,10 @@
             @include('_nav.menu', ['items' => $page->navigation])
 
             <section class="pt-10 block flex flex-wrap lg:hidden">
-                <a href="https://ctil.iu.edu/projects/apred/#/" class="btn primary text-sm w-full text-center">
-                    Start Using APRED
+                <a href="https://ctil.iu.edu/projects/apred/#/">
+                    <x-button>
+                        Start Using APRED
+                    </x-button>
                 </a>
             </section>
         </nav>
@@ -29,8 +31,10 @@
                 <a href="#docs-content" class="pr-8 underline">
                     Back to Top of Page
                 </a>
-                <a href="https://ctil.iu.edu/projects/apred/#/" class="btn primary">
-                    Start Using APRED
+                <a href="https://ctil.iu.edu/projects/apred/#/">
+                    <x-button>
+                        Start Using APRED
+                    </x-button>
                 </a>
             </footer>
         </div>
