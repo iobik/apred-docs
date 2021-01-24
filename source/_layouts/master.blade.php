@@ -56,8 +56,10 @@
                 </div>
                 @unless( $page->getPath() == '') 
                     <div class="justify-end hidden lg:flex lg:flex-1">
-                        <a href="https://ctil.iu.edu/projects/apred/#/" class="btn primary">
-                            Start Using APRED
+                        <a href="https://ctil.iu.edu/projects/apred/#/">
+                            <x-button>
+                                Start Using APRED
+                            </x-button>
                         </a>
                     </div>
                 @else 
@@ -152,7 +154,7 @@
 
             <aside class="border-t border-gray-200 py-10">
                 <div class="container mx-auto">
-                    Copyright © 2021 The Trustees of Indiana University | Privacy Notice | Accessibility | Sitemap | 
+                    Copyright © 2021 The Trustees of Indiana University |
                     <a href="https://ctil.iu.edu/contact-us/index.html" class="custom-decoration">
                         Contact Us
                     </a>
