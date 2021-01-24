@@ -32,7 +32,7 @@
                     disaster resilience and economic development 
                     can use APRED to visualize and drill-down into 
                     resilience metrics for a particular county. 
-                    <a href="/docs/getting-started" class="custom-decoration text-burgundy">Learn more about use cases.</a>
+                    <a href="{{ $page->baseUrl }}/docs/getting-started" class="custom-decoration text-burgundy">Learn more about use cases.</a>
                 </main>
             </div>
         </div>
@@ -77,7 +77,7 @@
                 U.S. over the last decade, there is strong interest 
                 in techniques for quantifying the risk of certain
                 kinds of hazardous 
-                events... <a href="/docs/getting-started" class="custom-decoration text-burgundy">Read more</a>
+                events... <a href="{{ $page->baseUrl }}/docs/getting-started" class="custom-decoration text-burgundy">Read more</a>
             </p>
         </main>
 
