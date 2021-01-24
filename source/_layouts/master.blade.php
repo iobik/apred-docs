@@ -63,11 +63,11 @@
                 @else 
                     <div class="justify-end hidden md:flex items-center space-x-16">   
                         <nav class="flex space-x-6">
-                            <a class="text-gray-700 text-xl font-light inline-block custom-decoration" href="/docs/getting-started">
+                            <a class="text-gray-700 text-xl font-light inline-block custom-decoration" href="{{ $page->baseUrl }}/docs/getting-started">
                                 Use Cases
                             </a>  
 
-                            <a class="text-gray-700 text-xl font-light inline-block custom-decoration" href="/docs/getting-started">
+                            <a class="text-gray-700 text-xl font-light inline-block custom-decoration" href="{{ $page->baseUrl }}/docs/getting-started">
                                 About
                             </a> 
                         </nav> 
