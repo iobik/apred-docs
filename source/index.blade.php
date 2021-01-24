@@ -17,7 +17,7 @@
     </main>
 
     <aside class="col-span-4 col-start-1 lg:col-span-2 lg:col-start-3 bg-cream">
-        <div class="px-4 py-12 space-x-4">
+        <div class="px-4 py-12 space-x-4 flex justify-start">
             <aside class="px-6">
                 <x-checkmark />
             </aside>
@@ -34,7 +34,7 @@
             </div>
         </div>
 
-        <div class="px-4 py-12 space-x-4">
+        <div class="px-4 py-12 space-x-4 flex justify-start">
             <aside class="px-6">
                 <x-checkmark />
             </aside>
@@ -51,7 +51,7 @@
             </div>
         </div>
 
-        <div class="px-4 py-12 space-x-4">
+        <div class="px-4 py-12 space-x-4 flex justify-start">
             <aside class="px-6">
                 <x-checkmark />
             </aside>
