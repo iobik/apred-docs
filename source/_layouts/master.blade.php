@@ -47,7 +47,7 @@
             <div class="container flex justify-between items-center mx-auto">
                 <div class="flex items-center">
                     <a href="{{ $page->baseUrl }}/" title="{{ $page->siteName }} home" class="inline-flex items-center relative">
-                        <h1 class="text-3xl font-bold hover:text-red-600 my-0 pr-4">
+                        <h1 class="text-5xl font-bold hover:text-red-600 my-0 pr-4">
                             <span class="text-burgundy">
                                 APRED
                             </span>
@@ -63,8 +63,8 @@
                         </a>
                     </div>
                 @else 
-                    <div class="justify-end hidden md:flex items-center space-x-16">   
-                        <nav class="flex space-x-6">
+                    <div class="hidden md:flex md:justify-between items-center flex-1 max-w-md">   
+                        <nav class="space-x-16">
                             <a class="text-gray-700 text-xl font-light inline-block custom-decoration" href="{{ $page->baseUrl }}/docs/getting-started">
                                 Use Cases
                             </a>  
@@ -73,16 +73,18 @@
                                 About
                             </a> 
                         </nav> 
-
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAACWCAIAAAB2EXwkAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAmBJREFUeNrs3T1OG0EAgFE7QqF1kcYcgBqJA3i3D2fAVWrfAI5ASyr7CAj3LA21EZ2rrZIGJCSqpCEToYjIkGCS2WF29b4SiWWGJ8/+aOXpH/f0xr3zL2AgBgzEgIEYMBADBmLAQAwYiAEDMWAgBgz0TBsZjun9YPBhZ6eJI18vFt9vbxm8XAD4eHbWxJHnZfmlqqxFYsBADBiIAQM9X78t711/ur9/7a987vd9DsSAgRgw0NpFeG66V1XD0SjusBq6pPmHi6u/9/X8/LQofA6sRWLAQAwYiIH7g19dTCabg8HvP9kej7f399c/wnI2W06nCWY7L8u44/wW402ZCAY3i8XKT4avvG25q+s0r5ys/JVMxmktcj4QAwZiwEAMGIgBAzFgIAYMxICBGDAQAwZiwEAMGIgBAzFgIAYMxICBGDAQAwZiwEAMGIgBA61fFvuAbBVF7/Aw+mF3Xzrm1n9/FV13DIajUfRvJfxpcHBgLRIDBmLAQG9rkOFefDnPqxGDq6Oj5WzWMYAwozCvNq1F1XjcJYYwlzCj9p0POsPQKEDj5+QOMDQNkOK6qNUMCQASXZteTCY3l5etA6hPThIAJDIIl3SnRdEuhjDaNADp7tHaxRDGGUab7C4n3X1yWxgSA6R+VpE/Q3qAnv0yc8gzOwZiwEAMGIgBAzFgoMc28hzWboxXgJ8eZDmd3tV1bpPN9HlR9A2/H5qXZZrN8KxFzgdiwEAMGIgBAzFoaZk+q1jZ+D5W10+2nWfwxzJ8omAtYiAGDMSAgRgwEAMGYsBADBiIAQMxYCAGDJS2HwIMAK+RvsulC4ZHAAAAAElFTkSuQmCC" 
-                        class="h-16 inline-block">
+                        <div>
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAACWCAIAAAB2EXwkAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAmBJREFUeNrs3T1OG0EAgFE7QqF1kcYcgBqJA3i3D2fAVWrfAI5ASyr7CAj3LA21EZ2rrZIGJCSqpCEToYjIkGCS2WF29b4SiWWGJ8/+aOXpH/f0xr3zL2AgBgzEgIEYMBADBmLAQAwYiAEDMWAgBgz0TBsZjun9YPBhZ6eJI18vFt9vbxm8XAD4eHbWxJHnZfmlqqxFYsBADBiIAQM9X78t711/ur9/7a987vd9DsSAgRgw0NpFeG66V1XD0SjusBq6pPmHi6u/9/X8/LQofA6sRWLAQAwYiIH7g19dTCabg8HvP9kej7f399c/wnI2W06nCWY7L8u44/wW402ZCAY3i8XKT4avvG25q+s0r5ys/JVMxmktcj4QAwZiwEAMGIgBAzFgIAYMxICBGDAQAwZiwEAMGIgBAzFgIAYMxICBGDAQAwZiwEAMGIgBA61fFvuAbBVF7/Aw+mF3Xzrm1n9/FV13DIajUfRvJfxpcHBgLRIDBmLAQG9rkOFefDnPqxGDq6Oj5WzWMYAwozCvNq1F1XjcJYYwlzCj9p0POsPQKEDj5+QOMDQNkOK6qNUMCQASXZteTCY3l5etA6hPThIAJDIIl3SnRdEuhjDaNADp7tHaxRDGGUab7C4n3X1yWxgSA6R+VpE/Q3qAnv0yc8gzOwZiwEAMGIgBAzFgoMc28hzWboxXgJ8eZDmd3tV1bpPN9HlR9A2/H5qXZZrN8KxFzgdiwEAMGIgBAzFoaZk+q1jZ+D5W10+2nWfwxzJ8omAtYiAGDMSAgRgwEAMGYsBADBiIAQMxYCAGDJS2HwIMAK+RvsulC4ZHAAAAAElFTkSuQmCC" 
+                            class="h-20 inline-block">
+                        </div>
                     </div>
                 @endunless
-                <div class="hidden flex flex-1 justify-end items-center text-right md:pl-10">
-                    @if ($page->docsearchApiKey && $page->docsearchIndexName)
+
+                @if ($page->docsearchApiKey && $page->docsearchIndexName)
+                    <div class="hidden md:flex flex-1 justify-end items-center text-right md:pl-10">
                         @include('_nav.search-input')
-                    @endif
-                </div>
+                    </div>
+                @endif
             </div>
 
             @yield('nav-toggle')

@@ -962,6 +962,10 @@ pre code {
   color: #999;
 }
 
+.bg-cool-gray {
+  background-color: #F0F0F0;
+}
+
 .bg-cream {
   background-color: #F7F3F3;
 }
