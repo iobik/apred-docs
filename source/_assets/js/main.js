@@ -1,5 +1,7 @@
 window.docsearch = require('docsearch.js');
 
+require('alpinejs');
+
 import hljs from 'highlight.js/lib/highlight';
 
 hljs.registerLanguage('bash', require('highlight.js/lib/languages/bash'));

@@ -8,7 +8,7 @@
 
 <section class="container mx-auto px-4 py-4 lg:grid lg:grid-cols-8 lg:space-x-4 relative">
     <div id="docs-content" class="DocSearch-content break-words pb-16 lg:col-span-6" v-pre>
-        <h1 class="text-5xl font-bold mb-12 mt-0">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-12 mt-0">
             {{ $page->title }}
         </h1>
         

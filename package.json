@@ -8,6 +8,7 @@
         "watch": "npm run local -- --watch"
     },
     "devDependencies": {
+        "alpinejs": "^2.8.0",
         "cross-env": "^3.2.4",
         "docsearch.js": "^2.6.2",
         "highlight.js": "^9.13.1",
