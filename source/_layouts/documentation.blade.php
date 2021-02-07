@@ -6,38 +6,28 @@
 
 @section('body')
 
-<section class="container max-w-8xl mx-auto px-6 md:px-8 py-4">
-    <div class="flex flex-col lg:flex-row">
-        <nav id="js-nav-menu" class="nav-menu hidden lg:block">
-            @include('_nav.menu', ['items' => $page->navigation])
+<section class="container mx-auto px-4 py-4 lg:grid lg:grid-cols-8 lg:space-x-4 relative">
+    <div id="docs-content" class="DocSearch-content break-words pb-16 lg:col-span-6" v-pre>
+        <h1 class="text-5xl font-bold mb-12 mt-0">
+            {{ $page->title }}
+        </h1>
+        
+        @yield('content')
 
-            <section class="pt-10 block flex flex-wrap lg:hidden">
-                <a href="https://ctil.iu.edu/projects/apred/#/">
-                    <x-button>
-                        Start Using APRED
-                    </x-button>
-                </a>
-            </section>
-        </nav>
-
-        <div id="docs-content" class="DocSearch-content w-full lg:w-3/5 break-words pb-16 lg:pl-4" v-pre>
-            <h1>
-                {{ $page->title }}
-            </h1>
-            
-            @yield('content')
-
-            <footer class="flex justify-end mt-20 items-center">
-                <a href="#docs-content" class="pr-8 underline">
-                    Back to Top of Page
-                </a>
-                <a href="https://ctil.iu.edu/projects/apred/#/">
-                    <x-button>
-                        Start Using APRED
-                    </x-button>
-                </a>
-            </footer>
-        </div>
+        <footer class="flex justify-end mt-20 items-center">
+            <a href="#docs-content" class="pr-8 underline">
+                Back to Top of Page
+            </a>
+            <a href="https://ctil.iu.edu/projects/apred/#/">
+                <x-button>
+                    Start Using APRED
+                </x-button>
+            </a>
+        </footer>
     </div>
+
+    <nav class="hidden lg:block lg:col-span-2">
+        @include('_nav.menu', ['items' => $page->navigation])
+    </nav>
 </section>
 @endsection

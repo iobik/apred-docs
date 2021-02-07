@@ -7,7 +7,6 @@
     @apply .pt-8;
     @apply .px-4;
     @apply .shadow;
-    @apply .w-auto;
 
     @screen lg {
         @apply .-mx-4;
@@ -19,7 +18,6 @@
         @apply .pr-4;
         @apply .pt-0;
         @apply .shadow-none;
-        @apply .w-1/4;
     }
 }
 
@@ -28,6 +26,6 @@
     @apply .no-underline;
     @apply .mb-3;
     @apply .mt-0;
-    @apply .text-gray-800;
+    @apply .text-black;
     @apply .text-sm;
 }

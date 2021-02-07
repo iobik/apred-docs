@@ -3,8 +3,8 @@
 return [
     'Getting Started' => [
         'children' => [
-            'Tutorial' => 'docs/getting-started',
-            'Use Cases' => 'docs/use-cases'
+            'Use Cases' => 'docs/use-cases',
+            'Tutorial' => 'docs/getting-started'
         ]
     ],
     

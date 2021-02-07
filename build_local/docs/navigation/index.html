@@ -75,105 +75,13 @@
 
         <main role="main" class="w-full flex-auto">
             
-<section class="container max-w-8xl mx-auto px-6 md:px-8 py-4">
-    <div class="flex flex-col lg:flex-row">
-        <nav id="js-nav-menu" class="nav-menu hidden lg:block">
-            <ul class="my-0">
-            <li class="pl-4">
-            
-        <p class="nav-menu__item text-gray-600">Getting Started</p>
-    
-            
-        <ul class="my-0">
-            <li class="pl-4">
-            
-        <a href="http://apred.test//docs/getting-started"
-            class="lvl1   nav-menu__item hover:text-blue-500"
-        >
-            Tutorial
-        </a>
-    
-    </li>
-            <li class="pl-4">
-            
-        <a href="http://apred.test//docs/use-cases"
-            class="lvl1   nav-menu__item hover:text-blue-500"
-        >
-            Use Cases
-        </a>
-    
-    </li>
-    </ul>
-    </li>
-            <li class="pl-4">
-            
-        <p class="nav-menu__item text-gray-600">Main Sections</p>
-    
-            
-        <ul class="my-0">
-            <li class="pl-4">
-            
-        <a href="http://apred.test//docs/disaster-declaration"
-            class="lvl1   nav-menu__item hover:text-blue-500"
-        >
-            Disaster Declaration
-        </a>
-    
-    </li>
-            <li class="pl-4">
-            
-        <a href="http://apred.test//docs/disaster-resilience"
-            class="lvl1   nav-menu__item hover:text-blue-500"
-        >
-            Disaster Resilience
-        </a>
-    
-    </li>
-            <li class="pl-4">
-            
-        <a href="http://apred.test//docs/business-vulnerability-index"
-            class="lvl1   nav-menu__item hover:text-blue-500"
-        >
-            Business Vulnerability Index
-        </a>
-    
-    </li>
-    </ul>
-    </li>
-            <li class="pl-4">
-            
-        <p class="nav-menu__item text-gray-600">Reference</p>
-    
-            
-        <ul class="my-0">
-            <li class="pl-4">
-            
-        <a href="http://apred.test//docs/faq"
-            class="lvl1   nav-menu__item hover:text-blue-500"
-        >
-            Frequently Asked Questions
-        </a>
-    
-    </li>
-    </ul>
-    </li>
-    </ul>
-
-            <section class="pt-10 block flex flex-wrap lg:hidden">
-                <a href="https://ctil.iu.edu/projects/apred/#/">
-                     <button class="py-3 px-8 bg-burgundy text-white rounded-full cursor-pointer hover:bg-red-700 transition duration-500 uppercase font-light text-lg">
-    Start Using APRED
-</button> 
-                </a>
-            </section>
-        </nav>
-
-        <div id="docs-content" class="DocSearch-content w-full lg:w-3/5 break-words pb-16 lg:pl-4" v-pre>
-            <h1>
-                Navigation
-            </h1>
-            
-            <h1 id="navigation">Navigation</h1>
+<section class="container mx-auto px-4 py-4 lg:grid lg:grid-cols-8 lg:space-x-4 relative">
+    <div id="docs-content" class="DocSearch-content break-words pb-16 lg:col-span-6" v-pre>
+        <h1 class="text-5xl font-bold mb-12 mt-0">
+            Navigation
+        </h1>
+        
+        <h1 id="navigation">Navigation</h1>
 
 <p>The navigation menu in the left-hand sidebar is defined using an array in <code>navigation.php</code>. Nested pages can be added by using the <code>children</code> associative array.</p>
 
@@ -200,18 +108,100 @@ return [
 $page-&gt;navigation
 </code></pre>
 
-            <footer class="flex justify-end mt-20 items-center">
-                <a href="#docs-content" class="pr-8 underline">
-                    Back to Top of Page
-                </a>
-                <a href="https://ctil.iu.edu/projects/apred/#/">
-                     <button class="py-3 px-8 bg-burgundy text-white rounded-full cursor-pointer hover:bg-red-700 transition duration-500 uppercase font-light text-lg">
+        <footer class="flex justify-end mt-20 items-center">
+            <a href="#docs-content" class="pr-8 underline">
+                Back to Top of Page
+            </a>
+            <a href="https://ctil.iu.edu/projects/apred/#/">
+                 <button class="py-3 px-8 bg-burgundy text-white rounded-full cursor-pointer hover:bg-red-700 transition duration-500 uppercase font-light text-lg">
     Start Using APRED
 </button> 
-                </a>
-            </footer>
-        </div>
+            </a>
+        </footer>
     </div>
+
+    <nav class="hidden lg:block lg:col-span-2">
+        <ul class="my-0  pt-8 lg:sticky lg:top-0 ">
+            <li class="pl-4">
+            
+        <p class="nav-menu__item text-gray-600">Getting Started</p>
+    
+            
+        <ul class="my-0 ">
+            <li class="pl-4">
+            
+        <a href="http://apred.test//docs/use-cases"
+            class="custom-decoration lvl1   nav-menu__item hover:text-blue-700"
+        >
+            Use Cases
+        </a>
+    
+    </li>
+            <li class="pl-4">
+            
+        <a href="http://apred.test//docs/getting-started"
+            class="custom-decoration lvl1   nav-menu__item hover:text-blue-700"
+        >
+            Tutorial
+        </a>
+    
+    </li>
+    </ul>
+    </li>
+            <li class="pl-4">
+            
+        <p class="nav-menu__item text-gray-600">Main Sections</p>
+    
+            
+        <ul class="my-0 ">
+            <li class="pl-4">
+            
+        <a href="http://apred.test//docs/disaster-declaration"
+            class="custom-decoration lvl1   nav-menu__item hover:text-blue-700"
+        >
+            Disaster Declaration
+        </a>
+    
+    </li>
+            <li class="pl-4">
+            
+        <a href="http://apred.test//docs/disaster-resilience"
+            class="custom-decoration lvl1   nav-menu__item hover:text-blue-700"
+        >
+            Disaster Resilience
+        </a>
+    
+    </li>
+            <li class="pl-4">
+            
+        <a href="http://apred.test//docs/business-vulnerability-index"
+            class="custom-decoration lvl1   nav-menu__item hover:text-blue-700"
+        >
+            Business Vulnerability Index
+        </a>
+    
+    </li>
+    </ul>
+    </li>
+            <li class="pl-4">
+            
+        <p class="nav-menu__item text-gray-600">Reference</p>
+    
+            
+        <ul class="my-0 ">
+            <li class="pl-4">
+            
+        <a href="http://apred.test//docs/faq"
+            class="custom-decoration lvl1   nav-menu__item hover:text-blue-700"
+        >
+            Frequently Asked Questions
+        </a>
+    
+    </li>
+    </ul>
+    </li>
+    </ul>
+    </nav>
 </section>
         </main>
 

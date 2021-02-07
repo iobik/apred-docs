@@ -1,9 +1,10 @@
 // Add your custom styles here
 
-#docs-content {    
+#docs-content {   
     h1:first-child {
         @apply .mt-0;
-    }
+    } 
+    
     h1, h2 {
         @apply .mt-20;
     }
@@ -19,14 +20,14 @@
     li {
         ul,
         ol {
-            @apply .pl-10;
+            @apply .pl-4;
         }
     }
     
     & > ul a {
         @apply .text-gray-600;
         @apply .text-lg;
-        @apply .font-thin;
+        @apply .font-normal;
     }
 
     & > ul > li > a {
