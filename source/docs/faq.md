@@ -13,7 +13,7 @@ section: content
 - [How can I use the information on the Disaster Resilience Index?](#how-to-use)
 - [How did you determine vulnerable businesses?](#vulnerability-method)
 - [Can we get information on particular businesses that are vulnerable within a county?](#vulnerability-info-scope)
-- [Can I view information on the platform according to cities within a county?](#municipal scope)
+- [Can I view information on the platform according to cities within a county?](#municipal-scope)
 
 
 ## Where is the data on the platform coming from? {#data-source}
