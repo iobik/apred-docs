@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 
 @section('body')
-<section class="container mx-auto grid grid-cols-4 gap-24 pb-16">
+<x-section class="container mx-auto grid grid-cols-4 gap-24 pb-16">
     <main class="col-span-4 lg:col-span-2 pt-32">
         <h1 class="text-3xl font-light mb-24 tracking-normal leading-10">
             <span class="font-bold">APRED</span> is a map-based tool for exploring the 
@@ -68,9 +68,9 @@
             </div>
         </div>
     </aside>
-</section>
+</x-section>
 
-<section class="bg-cream-thick py-12 -mx-4 px-4 lg:-mx-8 lg:px-8">
+<x-section class="bg-cream-thick py-12">
     <div class="container mx-auto lg:grid lg:grid-cols-2 lg:gap-24">
         <section class="lg:col-span-1 py-24">
             <header class="text-4xl font-normal">
@@ -100,6 +100,6 @@
             </p>
         </section>
     </div>
-</section>
+</x-section>
 
 @endsection
