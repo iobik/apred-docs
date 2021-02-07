@@ -23,7 +23,7 @@
         <title>{{ $page->siteName }}{{ $page->title ? ' | ' . $page->title : '' }}</title>
 
         <link rel="home" href="{{ $page->baseUrl }}">
-        <link rel="icon" href="/favicon.ico">
+        <link href="https://assets.iu.edu/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 
         @stack('meta')
 
@@ -42,7 +42,7 @@
         @endif
     </head>
 
-    <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans mx-4 lg:mx-0">
+    <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans mx-4">
         <header class="flex items-center h-10 mb-8 py-12" role="banner">
             <div class="container flex justify-between items-center mx-auto">
                 <div class="flex items-center">
@@ -63,15 +63,14 @@
                         </a>
                     </div>
                 @else 
-                    <div class="hidden md:flex md:justify-between items-center flex-1 max-w-md">   
+                    <div class="hidden md:flex md:justify-end space-x-10 items-center flex-1">   
                         <nav class="space-x-16">
-                            <a class="text-gray-700 text-xl font-light inline-block custom-decoration" href="{{ $page->baseUrl }}/docs/getting-started">
+                            <a class="text-gray-700 text-xl font-light inline-block custom-decoration" href="{{ $page->baseUrl }}/docs/use-cases">
                                 Use Cases
                             </a>  
-
-                            <a class="text-gray-700 text-xl font-light inline-block custom-decoration" href="{{ $page->baseUrl }}/docs/getting-started">
-                                About
-                            </a> 
+                            <a class="text-gray-700 text-xl font-light inline-block custom-decoration" href="{{ $page->baseUrl }}/docs/faq">
+                                Frequently Asked Questions
+                            </a>  
                         </nav> 
                         <div>
                             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIEAAACWCAIAAAB2EXwkAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAmBJREFUeNrs3T1OG0EAgFE7QqF1kcYcgBqJA3i3D2fAVWrfAI5ASyr7CAj3LA21EZ2rrZIGJCSqpCEToYjIkGCS2WF29b4SiWWGJ8/+aOXpH/f0xr3zL2AgBgzEgIEYMBADBmLAQAwYiAEDMWAgBgz0TBsZjun9YPBhZ6eJI18vFt9vbxm8XAD4eHbWxJHnZfmlqqxFYsBADBiIAQM9X78t711/ur9/7a987vd9DsSAgRgw0NpFeG66V1XD0SjusBq6pPmHi6u/9/X8/LQofA6sRWLAQAwYiIH7g19dTCabg8HvP9kej7f399c/wnI2W06nCWY7L8u44/wW402ZCAY3i8XKT4avvG25q+s0r5ys/JVMxmktcj4QAwZiwEAMGIgBAzFgIAYMxICBGDAQAwZiwEAMGIgBAzFgIAYMxICBGDAQAwZiwEAMGIgBA61fFvuAbBVF7/Aw+mF3Xzrm1n9/FV13DIajUfRvJfxpcHBgLRIDBmLAQG9rkOFefDnPqxGDq6Oj5WzWMYAwozCvNq1F1XjcJYYwlzCj9p0POsPQKEDj5+QOMDQNkOK6qNUMCQASXZteTCY3l5etA6hPThIAJDIIl3SnRdEuhjDaNADp7tHaxRDGGUab7C4n3X1yWxgSA6R+VpE/Q3qAnv0yc8gzOwZiwEAMGIgBAzFgoMc28hzWboxXgJ8eZDmd3tV1bpPN9HlR9A2/H5qXZZrN8KxFzgdiwEAMGIgBAzFoaZk+q1jZ+D5W10+2nWfwxzJ8omAtYiAGDMSAgRgwEAMGYsBADBiIAQMxYCAGDJS2HwIMAK+RvsulC4ZHAAAAAElFTkSuQmCC" 
@@ -98,7 +97,7 @@
 
         @stack('scripts')
 
-        <footer class="pt-16 bg-burgundy text-white -mx-4 lg:-mx-8" role="contentinfo">
+        <footer class="pt-16 bg-burgundy text-white -mx-4 px-4 lg:-mx-8 lg:px-8" role="contentinfo">
             <main class="container grid grid-cols-2 mx-auto gap-32 mb-16">
                 <section class="col-span-2 lg:col-span-1 inline-block align-middle">
                     <p>
@@ -115,7 +114,7 @@
                             Email: 
                         </span>
                         <a href="mailto:ctil@iu.edu" class="custom-decoration">
-                            clil@iu.edu
+                            ctil@iu.edu
                         </a>
                     </div>
                 </section>

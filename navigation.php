@@ -4,6 +4,7 @@ return [
     'Getting Started' => [
         'children' => [
             'Tutorial' => 'docs/getting-started',
+            'Use Cases' => 'docs/use-cases'
         ]
     ],
     
@@ -14,5 +15,10 @@ return [
             'Business Vulnerability Index' => 'docs/business-vulnerability-index',
         ]
     ],
-    'FAQs' => 'docs/faq',
+
+    'Reference' => [
+        'children' => [
+            'Frequently Asked Questions' => 'docs/faq'
+        ]
+    ]
 ];

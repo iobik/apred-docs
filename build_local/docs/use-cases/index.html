@@ -4,12 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="description" content="Configure Algolia DocSearch with the Jigsaw docs starter template">
+        <meta name="description" content="Some Usecase example for APRED">
 
         <meta property="og:site_name" content="APRED (Analysis Platform for Risk and Expenditure in Disaster)"/>
-        <meta property="og:title" content="Algolia DocSearch | APRED (Analysis Platform for Risk and Expenditure in Disaster)"/>
-        <meta property="og:description" content="Configure Algolia DocSearch with the Jigsaw docs starter template"/>
-        <meta property="og:url" content="http://apred.test/docs/algolia-docsearch"/>
+        <meta property="og:title" content="Use Cases | APRED (Analysis Platform for Risk and Expenditure in Disaster)"/>
+        <meta property="og:description" content="Some Usecase example for APRED"/>
+        <meta property="og:url" content="http://apred.test/docs/use-cases"/>
         <meta property="og:image" content="/assets/img/logo.png"/>
         <meta property="og:type" content="website"/>
 
@@ -17,7 +17,7 @@
         <meta name="twitter:card" content="summary_large_image">
 
         
-        <title>APRED (Analysis Platform for Risk and Expenditure in Disaster) | Algolia DocSearch</title>
+        <title>APRED (Analysis Platform for Risk and Expenditure in Disaster) | Use Cases</title>
 
         <link rel="home" href="http://apred.test">
         <link href="https://assets.iu.edu/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
@@ -97,7 +97,7 @@
             <li class="pl-4">
             
         <a href="http://apred.test//docs/use-cases"
-            class="lvl1   nav-menu__item hover:text-blue-500"
+            class="lvl1  active font-semibold text-blue-500 nav-menu__item hover:text-blue-500"
         >
             Use Cases
         </a>
@@ -170,71 +170,36 @@
 
         <div id="docs-content" class="DocSearch-content w-full lg:w-3/5 break-words pb-16 lg:pl-4" v-pre>
             <h1>
-                Algolia DocSearch
+                Use Cases
             </h1>
             
-            <h1 id="algolia-docsearch">Algolia DocSearch</h1>
+            <ul>
+<li><a href="#eda-rep">An EDA Representative</a></li>
+<li><a href="#economic-coordinator">Econimic Development District Coordinator</a></li>
+</ul>
 
-<p>This starter template includes support for <a href="https://community.algolia.com/docsearch/">DocSearch</a>, a documentation indexing and search tool provided by Algolia for free. To configure this tool, you’ll need to sign up with Algolia and set your API Key and index name in <code>config.php</code>. Algolia will then crawl your documentation regularly, and index all your content.</p>
+<h2 id="eda-rep">James is an EDA Representative. The APRED platform will support his work in the following ways:</h2>
 
-<p><a href="https://community.algolia.com/docsearch/#join-docsearch-program">Get your DocSearch credentials here.</a></p>
+<ul>
+<li>Provide information that he can use during outreach to the communities under his control.</li>
+<li>Provides him information on the number of investments EDA has made in a particular county in the past.</li>
+<li>Presents him information on the measuring distress indicators of all the counties in his region - based on computation from StatsAmerica.</li>
+<li>Tells the story of distress that might be within counties in his region. And also stories about things that might be going well.</li>
+<li>Provides him information on the number of disaster declarations that have been declared in a particular county in the past.</li>
+<li>Presents him information that he can use to help to guide counties in his region that are applying for grants.</li>
+<li>Obtain disaster history information on one platform.</li>
+</ul>
 
-<pre><code class="language-php">// config.php
-return [
-    'docsearchApiKey' =&gt; '',
-    'docsearchIndexName' =&gt; '',
-];
-</code></pre>
+<h2 id="economic-coordinator">Jeniffer is an Economic Development District Coordinator. The APRED platform will support her work in the following ways:</h2>
 
-<p>Once the <code>docsearchApiKey</code> and <code>docsearchIndexName</code> values are set in <code>config.php</code>, the search field at the top of the page is ready to use.</p>
-
-<p><img class="block m-auto" src="/assets/img/docsearch.png" alt="Screenshot of search results" /></p>
-
-<p>To help Algolia index your pages correctly, it's good practice to add a unique <code>id</code> or <code>name</code> attribute to each heading tag (<code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, etc.). By doing so, a user will be taken directly to the appropriate section of the page when they click a search result.</p>
-
-<hr />
-
-<h2 id="algolia-adding-custom-styles">Adding Custom Styles</h2>
-
-<p>If you'd like to customize the styling of the search results, Algolia exposes custom CSS classes that you can modify:</p>
-
-<pre><code class="language-css">/* Main dropdown wrapper */
-.algolia-autocomplete .ds-dropdown-menu {
-  width: 500px;
-}
-
-/* Main category (eg. Getting Started) */
-.algolia-autocomplete .algolia-docsearch-suggestion--category-header {
-  color: darkgray;
-  border: 1px solid gray;
-}
-
-/* Category (eg. Downloads) */
-.algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column {
-  color: gray;
-}
-
-/* Title (eg. Bootstrap CDN) */
-.algolia-autocomplete .algolia-docsearch-suggestion--title {
-  font-weight: bold;
-  color: black;
-}
-
-/* Description description (eg. Bootstrap currently works...) */
-.algolia-autocomplete .algolia-docsearch-suggestion--text {
-  font-size: 0.8rem;
-  color: gray;
-}
-
-/* Highlighted text */
-.algolia-autocomplete .algolia-docsearch-suggestion--highlight {
-  color: blue;
-}
-</code></pre>
-
-<hr />
-
-<p>For more details, visit the <a href="https://community.algolia.com/docsearch/what-is-docsearch.html">official Algolia DocSearch documentation.</a></p>
+<ul>
+<li>Present information that will help in developing a competitive economic development strategy.</li>
+<li>Provide information she can use as a narrative when applying for grants.</li>
+<li>Provide information on the measuring distress indicators based on computation from StatsAmerica.</li>
+<li>Allow her to quickly obtain information on business sectors perceived to be vulnerable to natural disasters within counties in their district.</li>
+<li>Enables them to look up across multiple disaster declarations how disasters impact the counties in her economic development district.</li>
+<li>Provide information that will be helpful in resiliency planning.</li>
+</ul>
 
             <footer class="flex justify-end mt-20 items-center">
                 <a href="#docs-content" class="pr-8 underline">

@@ -111,13 +111,28 @@ ul {
     @apply .pl-2;
 }
 
+#docs-content > ul:not(:first-of-type) {
+    @apply .pl-10;
+}
+
+
+#docs-content > ul:not(:first-of-type) > li {
+    @apply .mb-4;
+    @apply .text-xl;
+    @apply .font-normal;
+}
+
+#docs-content ul > li {
+    @apply .pl-6;
+}
+
 ol {
     @apply .list-decimal;
     @apply .pl-8;
 }
 
 ol > li {
-    @apply .mb-4;
+    @apply .mb-8;
 }
 
 p {

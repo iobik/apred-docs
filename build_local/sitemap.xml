@@ -2,62 +2,67 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
   <loc>http://apred.test</loc>
-  <lastmod>2021-02-06T18:56:17+00:00</lastmod>
+  <lastmod>2021-02-07T21:23:22+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://apred.test/docs/custom-404-page</loc>
-  <lastmod>2021-02-06T18:56:17+00:00</lastmod>
+  <lastmod>2021-02-07T21:23:22+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://apred.test/docs/source</loc>
-  <lastmod>2021-02-06T18:56:17+00:00</lastmod>
+  <lastmod>2021-02-07T21:23:22+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://apred.test/docs/faq</loc>
-  <lastmod>2021-02-06T18:56:17+00:00</lastmod>
+  <lastmod>2021-02-07T21:23:22+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://apred.test/docs/navigation</loc>
-  <lastmod>2021-02-06T18:56:17+00:00</lastmod>
+  <lastmod>2021-02-07T21:23:22+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://apred.test/docs/business-vulnerability-index</loc>
-  <lastmod>2021-02-06T18:56:17+00:00</lastmod>
+  <lastmod>2021-02-07T21:23:22+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://apred.test/docs/getting-started</loc>
-  <lastmod>2021-02-06T18:56:17+00:00</lastmod>
+  <lastmod>2021-02-07T21:23:22+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://apred.test/docs/support</loc>
-  <lastmod>2021-02-06T18:56:17+00:00</lastmod>
+  <lastmod>2021-02-07T21:23:22+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://apred.test/docs/disaster-declaration</loc>
-  <lastmod>2021-02-06T18:56:17+00:00</lastmod>
+  <lastmod>2021-02-07T21:23:22+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://apred.test/docs/customizing-your-site</loc>
-  <lastmod>2021-02-06T18:56:17+00:00</lastmod>
+  <lastmod>2021-02-07T21:23:22+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://apred.test/docs/algolia-docsearch</loc>
-  <lastmod>2021-02-06T18:56:17+00:00</lastmod>
+  <lastmod>2021-02-07T21:23:22+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>http://apred.test/docs/disaster-resilience</loc>
-  <lastmod>2021-02-06T18:56:17+00:00</lastmod>
+  <lastmod>2021-02-07T21:23:22+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>http://apred.test/docs/use-cases</loc>
+  <lastmod>2021-02-07T21:23:22+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
 </urlset>

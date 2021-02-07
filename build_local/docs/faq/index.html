@@ -7,7 +7,7 @@
         <meta name="description" content="A list of questions and issues people often run into">
 
         <meta property="og:site_name" content="APRED (Analysis Platform for Risk and Expenditure in Disaster)"/>
-        <meta property="og:title" content="Frequently Asked Questions | APRED (Analysis Platform for Risk and Expenditure in Disaster)"/>
+        <meta property="og:title" content="Frequently Asked Questions (FAQ) | APRED (Analysis Platform for Risk and Expenditure in Disaster)"/>
         <meta property="og:description" content="A list of questions and issues people often run into"/>
         <meta property="og:url" content="http://apred.test/docs/faq"/>
         <meta property="og:image" content="/assets/img/logo.png"/>
@@ -17,10 +17,10 @@
         <meta name="twitter:card" content="summary_large_image">
 
         
-        <title>APRED (Analysis Platform for Risk and Expenditure in Disaster) | Frequently Asked Questions</title>
+        <title>APRED (Analysis Platform for Risk and Expenditure in Disaster) | Frequently Asked Questions (FAQ)</title>
 
         <link rel="home" href="http://apred.test">
-        <link rel="icon" href="/favicon.ico">
+        <link href="https://assets.iu.edu/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 
         
         
@@ -32,7 +32,7 @@
 
             </head>
 
-    <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans mx-4 lg:mx-0">
+    <body class="flex flex-col justify-between min-h-screen bg-gray-100 text-gray-800 leading-normal font-sans mx-4">
         <header class="flex items-center h-10 mb-8 py-12" role="banner">
             <div class="container flex justify-between items-center mx-auto">
                 <div class="flex items-center">
@@ -94,6 +94,15 @@
         </a>
     
     </li>
+            <li class="pl-4">
+            
+        <a href="http://apred.test//docs/use-cases"
+            class="lvl1   nav-menu__item hover:text-blue-500"
+        >
+            Use Cases
+        </a>
+    
+    </li>
     </ul>
     </li>
             <li class="pl-4">
@@ -133,12 +142,20 @@
     </li>
             <li class="pl-4">
             
+        <p class="nav-menu__item text-gray-600">Reference</p>
+    
+            
+        <ul class="my-0">
+            <li class="pl-4">
+            
         <a href="http://apred.test//docs/faq"
-            class="lvl0  active font-semibold text-blue-500 nav-menu__item hover:text-blue-500"
+            class="lvl1  active font-semibold text-blue-500 nav-menu__item hover:text-blue-500"
         >
-            FAQs
+            Frequently Asked Questions
         </a>
     
+    </li>
+    </ul>
     </li>
     </ul>
 
@@ -153,11 +170,58 @@
 
         <div id="docs-content" class="DocSearch-content w-full lg:w-3/5 break-words pb-16 lg:pl-4" v-pre>
             <h1>
-                Frequently Asked Questions
+                Frequently Asked Questions (FAQ)
             </h1>
             
-            <p>This will be built in tandem with your feedback. If you have any suggestions, please contact 
-<a href="ctil@iu.edu">ctil@iu.edu</a></p>
+            <ul>
+<li><a href="#data-source">Where is the data on the platform coming from?</a></li>
+<li><a href="#future-updates">Is the platform going to be updated moving forward?</a></li>
+<li><a href="#update-frequency">How often will information on the platform be updated?</a></li>
+<li><a href="#calculation-method">How did you calculate the Disaster Resilience Index?</a></li>
+<li><a href="#how-to-use">How can I use the information on the Disaster Resilience Index?</a></li>
+<li><a href="#vulnerability-method">How did you determine vulnerable businesses?</a></li>
+<li><a href="#vulnerability-info-scope">Can we get information on particular businesses that are vulnerable within a county?</a></li>
+<li>[Can I view information on the platform according to cities within a county?](#municipal scope)</li>
+</ul>
+
+<h2 id="data-source">Where is the data on the platform coming from?</h2>
+
+<p>Our data sources are StatsAmerica, American Community Survey (ACS), County Business Patterns, FEMA, NOAA, and US Economic Development Administration (EDA).</p>
+
+<h2 id="future-updates">Is the platform going to be updated moving forward?</h2>
+
+<p>Yes. The platform will be maintained by the engineering team at StatsAmerica.</p>
+
+<h2 id="update-frequency">How often will information on the platform be updated?</h2>
+
+<p>The FEMA data is updated daily. The NOAA data is updated monthly. The ACS and County Business Patterns data are updated yearly. And the EDA data is updated as we receive the files.</p>
+
+<h2 id="calculation-method">How did you calculate the Disaster Resilience Index?</h2>
+
+<p>The measures are calculated using data from the Census, American Community Survey, and other large data sources maintained by StatsAmerica. In general, each individual measure is the percentile within the relative range for the individual measure across all counties for a given year. The categories are calculated by averaging all of the requisite individual measures. Overall resilience is the sum of the category values. The methodology used for disaster resilience is based on [Cutter et al. 2010].</p>
+
+<h2 id="how-to-use">How can I use the information on the Disaster Resilience Index?</h2>
+
+<p>The information can be used to make an assessment of the overall disaster resilience for the county. We have provided visual comparisons for the state and the nation with each individual measure. Resilience is not absolute and it is important to remember that the values presented are relative to other counties.</p>
+
+<p>For example, the measures are not meant to direct action towards influencing the actual data fields that comprise the measure. The measures are meant to be reflective of larger patterns within the community that contribute to the overall resilience. In many cases -- like educational equity, which measures the ratio of persons with more than a high school degree to those with a high school degree -- there are latent factors that contribute to an increase in the measure that a community may consider in order to improve the overall resilience. Some latent factors include the attractiveness of the community to new businesses with higher-paying jobs, availability of social programs that can increase the ability of differently advantaged students to continue with educational pursuits, and even the availability of public transportation.</p>
+
+<h2 id="vulnerability-method">How did you determine vulnerable businesses?</h2>
+
+<p>To calculate the BVI, we isolated businesses by NAICS code from the U.S. Census' most recent County Business Patterns based on their vulnerability to a natural disaster (farmers, transportation companies, etc.). Businesses that were identified to be especially vulnerable to a disaster are: dependent on supply chains, have a high reliance on public utilities like water and electricity, or have a large infrastructure footprint and low infrastructure mobility.</p>
+
+<h2 id="vulnerability-info-scope">Can we get information on particular businesses that are vulnerable within a county?</h2>
+
+<p>The information on business vulnerability is being presented according to business sectors only.</p>
+
+<h2 id="municipal-scope">Can I view information on the platform according to cities within a county?</h2>
+
+<p>Information on the platform is at the county level. Please visit <a href="https://www.statsamerica.org">www.statsamerica.org</a> to explore more relevant datasets.</p>
+
+<p><br/><br/></p>
+
+<p><em>This is being built in tandem with your feedback. If you have any suggestions, please contact 
+<a href="ctil@iu.edu">ctil@iu.edu</a></em></p>
 
             <footer class="flex justify-end mt-20 items-center">
                 <a href="#docs-content" class="pr-8 underline">
@@ -188,7 +252,7 @@
     }
 </script>
 
-        <footer class="pt-16 bg-burgundy text-white -mx-4 lg:-mx-8" role="contentinfo">
+        <footer class="pt-16 bg-burgundy text-white -mx-4 px-4 lg:-mx-8 lg:px-8" role="contentinfo">
             <main class="container grid grid-cols-2 mx-auto gap-32 mb-16">
                 <section class="col-span-2 lg:col-span-1 inline-block align-middle">
                     <p>
@@ -205,7 +269,7 @@
                             Email: 
                         </span>
                         <a href="mailto:ctil@iu.edu" class="custom-decoration">
-                            clil@iu.edu
+                            ctil@iu.edu
                         </a>
                     </div>
                 </section>

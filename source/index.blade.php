@@ -70,7 +70,7 @@
     </aside>
 </section>
 
-<section class="bg-cream-thick py-12 -mx-4 lg:-mx-8">
+<section class="bg-cream-thick py-12 -mx-4 px-4 lg:-mx-8 lg:px-8">
     <div class="container mx-auto lg:grid lg:grid-cols-2 lg:gap-24">
         <section class="lg:col-span-1 py-24">
             <header class="text-4xl font-normal">
@@ -82,10 +82,7 @@
             <p class="text-xl font-light leading-9">
                 APRED is a map-based platform that provides practitioners with information on 
                 the disaster resilience and vulnerability profile of all the counties across 
-                the United States. The platform also provides information on the 
-                <a href="{{ $page->baseUrl }}/docs/getting-started" class="custom-decoration text-burgundy">
-                    Learn more about APRED
-                </a>
+                the United States.
             </p>
         </section>
 
@@ -100,9 +97,6 @@
                 Practitioners and policy makers involved with disaster resilience 
                 and economic development can use APRED to visualize and 
                 drill-down into resilience metrics for a particular county. 
-                <a href="{{ $page->baseUrl }}/docs/getting-started" class="custom-decoration text-burgundy">
-                    Learn more about use cases.
-                </a>
             </p>
         </section>
     </div>
