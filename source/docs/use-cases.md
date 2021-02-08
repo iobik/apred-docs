@@ -7,7 +7,7 @@ section: content
 
 
 - [An EDA Representative](#eda-rep)
-- [Econimic Development District Coordinator](#economic-coordinator)
+- [Economic Development District Coordinator](#economic-coordinator)
 
 
 ## James is an EDA Representative. The APRED platform will support his work in the following ways: {#eda-rep}
