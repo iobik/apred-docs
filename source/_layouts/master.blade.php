@@ -85,8 +85,10 @@
                     </div>
                 @endif
             </div>
-
-            @yield('nav-toggle')
+            
+            <div class="lg:hidden">
+                @yield('nav-toggle')
+            </div>
         </header>
 
         <main role="main" class="w-full flex-auto">

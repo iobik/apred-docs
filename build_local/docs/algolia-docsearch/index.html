@@ -54,8 +54,9 @@
                     </div>
                 
                             </div>
-
-                <div x-data="{ open: false }" @click.away="open = false" @close.stop="open = false">
+            
+            <div class="lg:hidden">
+                    <div x-data="{ open: false }" @click.away="open = false" @close.stop="open = false">
     <!-- Mobile menu button -->
     <button @click="open = ! open"  class="crimson inline-flex items-center justify-center py-2 px-5 rounded-full text-gray-400 hover:text-gray-500 hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 mr-4" aria-expanded="false">
         <span class="sr-only">Open main menu</span>
@@ -181,7 +182,8 @@
         </div>
     </div>
     </div>
-</div>        </header>
+</div>            </div>
+        </header>
 
         <main role="main" class="w-full flex-auto">
             
