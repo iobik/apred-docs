@@ -14,13 +14,17 @@ section: content
 - [How did you determine vulnerable businesses?](#vulnerability-method)
 - [Can we get information on particular businesses that are vulnerable within a county?](#vulnerability-info-scope)
 - [Can I view information on the platform according to cities within a county?](#municipal-scope)
+- [Why is the platform not showing that agriculture is vulnerable to natural disasters?](#Agriculture-info)
+- [Why are you not taking off the older information from the 1960s from the platform?](#Older-info)
+- [Can we get data for the communities within a county?](#Community-info)
+- [Can we request more information to be added to the platform?](#Add-info)
 
 
 ## Where is the data on the platform coming from? {#data-source}
 Our data sources are StatsAmerica, American Community Survey (ACS), County Business Patterns, FEMA, NOAA, and US Economic Development Administration (EDA).
 
 ## Is the platform going to be updated moving forward? {#future-updates}
-Yes. The platform will be maintained by the engineering team at StatsAmerica.
+Yes. The platform will be maintained by the engineering team at Indiana Business Research Center — the same team that maintains StatsAmerica.
 
 ## How often will information on the platform be updated? {#update-frequency}
 The FEMA data is updated daily. The NOAA data is updated monthly. The ACS and County Business Patterns data are updated yearly. And the EDA data is updated as we receive the files.  
@@ -42,7 +46,19 @@ The information on business vulnerability is being presented according to busine
 ## Can I view information on the platform according to cities within a county? {#municipal-scope}
 Information on the platform is at the county level. Please visit [www.statsamerica.org](https://www.statsamerica.org) to explore more relevant datasets.
 
+## Why is the platform not showing that agriculture is vulnerable to natural disasters? {#Agriculture-info}
+Some sectors within agriculture are vulnerable to natural disasters. For example, livestock farming is potentially affected by flooding and tornados.
+
+## Why are you not taking off the older information from the 1960s from the platform? {#Older-info}
+Some of our data sources go back a long way and, in the interest of transparency and giving the full picture, we opted to ingest as much data as possible when building the platform.
+
+## Can we get data for the communities within a county? {#Community-info}
+We are presenting the data at the lowest level (county) in which we have all of the available data within the platform.
+
+## Can we request more information to be added to the platform? {#Add-info}
+Answer: Yes, we are open to adding information to the platform where it may be necessary or useful to end users. In an attempt to not duplicate or replicate other tools that are available (e.g. in StatsAmerica) we also link to other useful tools within our platform.
+
 <br/><br/>
 
-_This is being built in tandem with your feedback. If you have any suggestions, please contact 
+_If you have questions or suggestions, please contact 
 [ctil@iu.edu](ctil@iu.edu)_

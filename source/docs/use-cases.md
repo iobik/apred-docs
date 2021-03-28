@@ -13,19 +13,19 @@ section: content
 ## James is an EDA Representative. The APRED platform will support his work in the following ways: {#eda-rep}
 
 1. Provide information that he can use during outreach to the communities under his control.
-2. Provides him information on the number of investments EDA has made in a particular county in the past.
-3. Presents him information on the measuring distress indicators of all the counties in his region - based on computation from StatsAmerica.
-4. Tells the story of distress that might be within counties in his region. And also stories about things that might be going well.
-5. Provides him information on the number of disaster declarations that have been declared in a particular county in the past.
-6. Presents him information that he can use to help to guide counties in his region that are applying for grants.
-7. Obtain disaster history information on one platform.
+2. Find information on the measuring distress indicators of counties within his region based on calculation from StatsAmerica.
+3. Develop narratives about distress that might be within counties in his region. And also stories about improving economic conditions and resiliency.
+4. Learn about the history of FEMA Disaster Declarations for a particular county and see whether there is an increase in prevalence of any types of disasters. 
+5. Learn about the number of investments EDA has made in a particular county from 2012 to date from the Disaster Supplemental funding awards.
+6. Share relevant information that counties in this region can consider when applying for future grants.
 
 
 ## Sarah is an Economic Development District Coordinator. The APRED platform will support her work in the following ways: {#economic-coordinator}
 
-1. Present information that will help in developing a competitive economic development strategy.
-2. Provide information she can use as a narrative when applying for grants.
-3. Provide information on the measuring distress indicators based on computation from StatsAmerica.
-4. Allow her to quickly obtain information on business sectors perceived to be vulnerable to natural disasters within counties in their district.
-5. Enables them to look up across multiple disaster declarations how disasters impact the counties in her economic development district.
-6. Provide information that will be helpful in resiliency planning.
+1. Find relevant information that will support them in developing a Comprehensive Economic Development Strategy (CEDS).
+2. Find information on the measuring distress indicators of counties within her region based on calculation from StatsAmerica.
+3. Compare economic and distress indicators for counties within their district.
+4. Learn about business sectors within a county that are perceived to be most vulnerable to natural disasters.
+5. Provide information to support disaster resiliency planning.
+6. Find information that can be used as a narrative for grant applications.
+7. Explore previous FEMA disaster declarations and how resilience has changed overtime for counties in their region.

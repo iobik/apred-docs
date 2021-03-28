@@ -103,7 +103,7 @@
             <main class="container grid grid-cols-2 mx-auto gap-32 mb-16">
                 <section class="col-span-2 lg:col-span-1 inline-block align-middle">
                     <p>
-                        This publication was prepared by the CTIL and IBRC at Indiana University using Federal funds 
+                        This publication was prepared by the CTIL and IBRC at Indiana University using federal funds 
                         awarded to the Trustees of Indiana University and as a sub-component under award number 
                         ED17HDQ3120040 from the U.S. Economic Development Administration, U.S. Department of Commerce. 
                         The statements, findings, conclusions, and recommendations are those of the author(s) and 

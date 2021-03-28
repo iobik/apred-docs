@@ -13,15 +13,15 @@ section: content
 
 
 ## Introduction {#introduction}
-APRED provides information on counties that may qualify to receive disaster supplemental funding based on Disaster Declarations from FEMA. The platform also provides information on the disaster profile of counties including reports on their disaster resilience levels, business vulnerability index, and storm history. 
+The APRED platform provides information on the disaster profile of counties across the United States including reports on their disaster resilience levels, business vulnerability index, and storm history. 
 
 In this tutorial, you'll learn how to navigate the three sections of APRED: __[FEMA Disaster Declarations](#fema-disaster-declarations),
-[Disaster Resilience](#disaster-resilience), and [EDA Supplemental Awards](#eda-supplemental-awards)__.Let's begin by navigating to the FEMA Diaster Declaration section of the tool.
+[Disaster Resilience](#disaster-resilience), and [EDA Supplemental Awards](#eda-supplemental-awards)__. Let's begin by navigating to the FEMA Disaster Declaration section of the tool.
 
 ![APRED Map Controls](/assets/images/docs/getting-started/map-controls.png)
 *This image is from the [APRED app](https://ctil.iu.edu/projects/apred/#/)*
 
-## FEMA Disaster Declarations Section {#fema-disaster-declarations}
+## FEMA Disaster Declaration Section {#fema-disaster-declarations}
 
 #### Selecting by Disaster Type
 To visually explore the geographic spread of different types of disaster, you can use the date range feature to select dates and use the checkmark box to select disaster types.
@@ -38,7 +38,7 @@ To evaluate the eligibility of a county to receive disaster funding or to view t
 The county dashboard provides a summary of the demographic and economic information of a county.
 
 ![APRED County Profile](/assets/images/docs/getting-started/county-profile.png)
-*This image is from Monroe county's dashboard [Monroe County Dashboard APRED](https://ctil.iu.edu/projects/apred/#/county/18105)*
+*This image is from Monroe County's dashboard [Monroe County Dashboard APRED](https://ctil.iu.edu/projects/apred/#/county/18105)*
 
 #### Disaster Declaration 
 This section provides information on disasters that may be eligible for investment assistance from the EDA.
@@ -50,7 +50,7 @@ BVI provides information on the percentages of businesses in a county that are b
 
 ![Business Vulnerability Index](/assets/images/docs/getting-started/business-vulnerability-index.png)
 
-#### Disaster Resilienc
+#### Disaster Resilience
 The disaster resilience index measures the capacity of a city to recover from disaster events without loosing their socioeconomic and infrastructural viability.
 
 ![Disaster Resilience](/assets/images/docs/getting-started/disaster-resilience.png)
@@ -62,13 +62,13 @@ The storm history graph provides information on the counts of storm events in a 
 
 ## Disaster Resilience Section {#disaster-resilience}
 
-Use the legend box to select the from the different indicators of disaster resilience.
+Use the legend box to select from the different indicators of disaster resilience.
 
 ![Disaster Resilience Filter](/assets/images/docs/getting-started/disaster-resilience-filter.png)
 
 ## EDA Supplemental Awards Section {#eda-supplemental-awards}
 
-Use the color to decode the county specific EDA awards from the statewide awards.
+Use the color to decode the county-specific EDA awards from the statewide awards.
 
 ![EDA Awards Filter](/assets/images/docs/getting-started/eda-awards-filter.png)
 
