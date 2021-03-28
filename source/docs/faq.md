@@ -56,7 +56,7 @@ Some of our data sources go back a long way and, in the interest of transparency
 We are presenting the data at the lowest level (county) in which we have all of the available data within the platform.
 
 ## Can we request more information to be added to the platform? {#Add-info}
-Answer: Yes, we are open to adding information to the platform where it may be necessary or useful to end users. In an attempt to not duplicate or replicate other tools that are available (e.g. in StatsAmerica) we also link to other useful tools within our platform.
+Yes, we are open to adding information to the platform where it may be necessary or useful to end users. In an attempt to not duplicate or replicate other tools that are available (e.g. in StatsAmerica) we also link to other useful tools within our platform.
 
 <br/><br/>
 
