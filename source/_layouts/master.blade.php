@@ -128,7 +128,7 @@
                     <main class="space-y-4">
                         <div>
                             <a class="undecorated" target="_blank" href="https://www.eda.gov/">
-                                <img class="w-16 inline-block mr-12" src="/assets/img/eda-seal.png" />
+                                <img class="w-16 inline-block mr-12" src="" />
                             </a>
                             <a class="custom-decoration" target="_blank" href="https://www.eda.gov/">
                                 U.S. Economic Development Administration
